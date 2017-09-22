@@ -17,4 +17,5 @@ class Girl:
 
 moon = Girl("moon", 18)
 moon.secret()
-moon.__secret()
+# 如何访问私有属性和方法呢?
+moon._Girl__secret()
