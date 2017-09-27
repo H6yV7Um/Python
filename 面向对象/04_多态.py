@@ -27,9 +27,9 @@ class Person(object):
         print("%s 和 %s 一起玩耍" % (self.name, dog.name))
         dog.bark()
 
+
 # sky = Dog("sky")
 infi = Hsq("infi")
 
 moon = Person("moon")
 moon.play_to_dog(infi)
-
