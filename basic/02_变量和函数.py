@@ -1,7 +1,27 @@
 """
+5大数据类型:
+不可变类型: 数字(int float bool)、字符串、元组
+可变类型: 列表、字典(key必须是不可变类型,value任意;因为python设置键值对时会先对key做hash处理,而hash()函数只能接受不可变类型)
+   注意: 变量的CUD操作改变的是list/dict的内容,而list/dict在内存中引用的地址值并不变,重新赋值才会改变变量在内存中引用的地址值
+
+type()函数: 可以查看变量类型
+id()函数: 可以查看变量在内存中的地址值
+
 变量: 全局变量和局部变量
 函数: 实现特定功能的方法
 """
+
+name = "小明"
+age = 119
+sex = True
+height = 1.80
+weight = 65.0
+print(name)
+
+print(type(name))
+
+# 运算(True=1;False=0)
+print(age + sex)
 
 gl_num = 10  # 全局变量命名时加个前缀以示区分,防止和局部变量重名
 
@@ -42,43 +62,42 @@ print(b)
 函数中的变量在内存中的理解(重点)
 """
 
-# 函数内部赋值操作
 gl_num = 55
-
-
-def test03(num):
-    print("函数内部代码:")
-    num = 99  # 函数内部的赋值操作不会改变全局变量的值(画内存图)
-    print(num)
-
-
-test03(gl_num)
-print(gl_num)
-
-# 函数内部方法操作
 gl_list = [1, 2, 3]
 
 
+# 函数内部赋值操作
+def test03(num, num_list):
+    print("函数内部代码:")
+    num = 99  # 函数内部的赋值操作不会改变全局变量的值,不管数据是不是可变类型(画内存图)
+    num_list = [4, 5, 6]
+    print(num)
+    print(num_list)
+
+
+test03(gl_num, gl_list)
+print(gl_num)
+print(gl_list)
+
+
+# 函数内部方法操作
 def test04(num_list):
     print("函数内部代码:")
-    num_list.append(5)  # 函数内部的方法操作会改变全局变量的值(画内存图)
+    num_list.append(5)  # 函数内部的方法操作会改变可变类型的全局变量的值(画内存图)
     print(num_list)
 
 
 test04(gl_list)
 print(gl_list)
 
+
 # 列表的 += 相当于调用extend()方法
-gl_num = 10
-gl_list = [11, 22, 33]
-
-
 def test05(num, num_list):
     print("函数内部代码:")
-    num += num  # 等同于 num = num + num
+    num += num  # 不可变类型:等同于 num = num + num
 
     # num_list = num_list + num_list
-    num_list += num_list  # 等同于num_list.extend(num_list)
+    num_list += num_list  # 可变类型:等同于num_list.extend(num_list)
 
     print(num, num_list)
 
@@ -107,8 +126,8 @@ test06("moon", gender=False)
 
 """
 多值参数: 函数要接受的参数个数或类型不确定时使用
-         *args可以接受元组
-         **kwargs可以接受字典
+         *args表示接受元组
+         **kwargs表示接受字典
 """
 
 
