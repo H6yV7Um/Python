@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c754bed-1728-4fe6-b25b-d00ad1a199db" name="Default" comment="" />
+    <list default="true" id="5c754bed-1728-4fe6-b25b-d00ad1a199db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/__init__.py" afterPath="$PROJECT_DIR$/basic/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_01快捷键.py" afterPath="$PROJECT_DIR$/basic/qb_01快捷键.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_02变量和函数.py" afterPath="$PROJECT_DIR$/basic/qb_02变量和函数.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_03数据类型.py" afterPath="$PROJECT_DIR$/basic/qb_03数据类型.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_04键盘录入.py" afterPath="$PROJECT_DIR$/basic/qb_04键盘录入.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_05格式化输出变量.py" afterPath="$PROJECT_DIR$/basic/qb_05格式化输出变量.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_06if判断.py" afterPath="$PROJECT_DIR$/basic/qb_06if判断.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_07while循环.py" afterPath="$PROJECT_DIR$/basic/qb_07while循环.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_08函数.py" afterPath="$PROJECT_DIR$/basic/qb_08函数.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_09元组.py" afterPath="$PROJECT_DIR$/basic/qb_09元组.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_10列表.py" afterPath="$PROJECT_DIR$/basic/qb_10列表.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_11字典.py" afterPath="$PROJECT_DIR$/basic/qb_11字典.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_12字符串.py" afterPath="$PROJECT_DIR$/basic/qb_12字符串.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_13面向对象.py" afterPath="$PROJECT_DIR$/basic/qb_13面向对象.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_14小明跑步.py" afterPath="$PROJECT_DIR$/basic/qb_14小明跑步.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/基础语法/qb_15摆放家具.py" afterPath="$PROJECT_DIR$/basic/qb_15摆放家具.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/01_封装.py" afterPath="$PROJECT_DIR$/object/01_封装.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/02_私有属性和方法.py" afterPath="$PROJECT_DIR$/object/02_私有属性和方法.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/03_继承.py" afterPath="$PROJECT_DIR$/object/03_继承.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/04_多态.py" afterPath="$PROJECT_DIR$/object/04_多态.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/05_类中3种方法.py" afterPath="$PROJECT_DIR$/object/05_类中3种方法.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/06_单例模式.py" afterPath="$PROJECT_DIR$/object/06_单例模式.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/07_异常.py" afterPath="$PROJECT_DIR$/object/07_异常.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/08_模块.py" afterPath="$PROJECT_DIR$/object/08_模块.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/面向对象/09_文件.py" afterPath="$PROJECT_DIR$/object/09_文件.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,98 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="card_main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../名片管理系统/card_main.py">
+      <file leaf-file-name="card_main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/card_manager/card_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_tools.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../名片管理系统/card_tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-              <folding>
-                <element signature="e#116#276#0" expanded="false" />
-                <element signature="e#299#716#0" expanded="false" />
-                <element signature="e#1307#2008#0" expanded="false" />
-                <element signature="e#1532#1934#0" expanded="false" />
-                <element signature="e#2041#2793#0" expanded="false" />
-                <element signature="e#2837#3154#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_09元组.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_09元组.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_10列表.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_10列表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_11字典.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_11字典.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_12字符串.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_12字符串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1146">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_03数据类型.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_03数据类型.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_04键盘录入.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qb_02变量和函数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1093">
-              <caret line="170" column="21" lean-forward="false" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+            <state relative-caret-position="81">
+              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -126,6 +69,9 @@
     <findStrings>
       <find>input</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,6 +129,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -198,24 +147,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="01_python基础" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_python基础" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../名片管理系统" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic/qb_09元组.py" />
     <property name="settings.editor.splitter.proportion" value="0.24705882" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -231,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.qb_02变量">
+  <component name="RunManager" selected="Python.card_main">
     <configuration name="card_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,98 +188,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../名片管理系统" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/card_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="名片管理系统" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../名片管理系统/card_main.py" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/card_manager/card_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="qb_02变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_python基础" />
-      <option name="SCRIPT_NAME" value="C:\Users\chenqian\PycharmProjects\01_python基础\qb_02变量和函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="qb_03数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_python基础" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qb_03数据类型.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="qb_09元组" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_python基础" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qb_09元组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="qb_12字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_python基础" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qb_12字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.qb_12字符串" />
-      <item index="1" class="java.lang.String" itemvalue="Python.card_main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.qb_03数据类型" />
-      <item index="3" class="java.lang.String" itemvalue="Python.qb_02变量" />
-      <item index="4" class="java.lang.String" itemvalue="Python.qb_09元组" />
-    </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.qb_02变量" />
-        <item index="1" class="java.lang.String" itemvalue="Python.qb_09元组" />
-        <item index="2" class="java.lang.String" itemvalue="Python.qb_03数据类型" />
-        <item index="3" class="java.lang.String" itemvalue="Python.qb_12字符串" />
-        <item index="4" class="java.lang.String" itemvalue="Python.card_main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.card_main" />
       </list>
     </recent_temporary>
   </component>
@@ -361,13 +231,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14568081" sideWeight="0.4816754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14568081" sideWeight="0.4816754" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3496063" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072440945" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3548896" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26025236" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31653544" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -413,244 +282,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_11字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_09元组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_10列表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_11字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_08函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_07while循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_12字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_08函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_07while循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="82" lean-forward="false" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py" />
+    <entry file="file://$PROJECT_DIR$/qb_11字典.py" />
+    <entry file="file://$PROJECT_DIR$/qb_09元组.py" />
+    <entry file="file://$PROJECT_DIR$/qb_10列表.py" />
+    <entry file="file://$PROJECT_DIR$/qb_11字典.py" />
+    <entry file="file://$PROJECT_DIR$/qb_08函数.py" />
+    <entry file="file://$PROJECT_DIR$/qb_07while循环.py" />
+    <entry file="file://$PROJECT_DIR$/qb_06if判断.py" />
+    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py" />
+    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py" />
+    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py" />
+    <entry file="file://$PROJECT_DIR$/qb_12字符串.py" />
+    <entry file="file://$PROJECT_DIR$/qb_08函数.py" />
+    <entry file="file://$PROJECT_DIR$/qb_07while循环.py" />
+    <entry file="file://$PROJECT_DIR$/qb_06if判断.py" />
+    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py" />
+    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py" />
+    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py" />
+    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py" />
+    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py" />
+    <entry file="file://$PROJECT_DIR$/qb_06if判断.py" />
+    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py" />
+    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py" />
+    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py" />
+    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py" />
+    <entry file="file://$PROJECT_DIR$/qb_06if判断.py" />
+    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py" />
+    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/asyncio/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1040">
@@ -658,144 +317,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/01_python基础.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/01_python基础.iml" />
     <entry file="file://$PROJECT_DIR$/07_while.py" />
-    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qb_01快捷键.py" />
     <entry file="file://$PROJECT_DIR$/qb_10for循环遍历.py" />
-    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py">
+    <entry file="file://$PROJECT_DIR$/qb_05格式化输出变量.py" />
+    <entry file="file://$PROJECT_DIR$/qb_06if判断.py" />
+    <entry file="file://$PROJECT_DIR$/qb_08函数.py" />
+    <entry file="file://$PROJECT_DIR$/qb_07while循环.py" />
+    <entry file="file://$PROJECT_DIR$/../名片管理系统/card_main.py" />
+    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py" />
+    <entry file="file://$PROJECT_DIR$/qb_12字符串.py" />
+    <entry file="file://$PROJECT_DIR$/qb_11字典.py" />
+    <entry file="file://$PROJECT_DIR$/../名片管理系统/card_tools.py" />
+    <entry file="file://$PROJECT_DIR$/xixi.ipynb" />
+    <entry file="file://$PROJECT_DIR$/xixi.html" />
+    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py" />
+    <entry file="file://$PROJECT_DIR$/qb_09元组.py" />
+    <entry file="file://$PROJECT_DIR$/qb_10列表.py" />
+    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py" />
+    <entry file="file://$PROJECT_DIR$/basic/qb_02变量和函数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qb_06if判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_08函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_07while循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../名片管理系统/card_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_04键盘录入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_12字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1146">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_11字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../名片管理系统/card_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding>
-            <element signature="e#116#276#0" expanded="false" />
-            <element signature="e#299#716#0" expanded="false" />
-            <element signature="e#1307#2008#0" expanded="false" />
-            <element signature="e#1532#1934#0" expanded="false" />
-            <element signature="e#2041#2793#0" expanded="false" />
-            <element signature="e#2837#3154#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi.html">
+    <entry file="file://$PROJECT_DIR$/basic/qb_09元组.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qb_03数据类型.py">
+    <entry file="file://$PROJECT_DIR$/card_manager/card_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_09元组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_10列表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qb_02变量和函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1093">
-          <caret line="170" column="21" lean-forward="false" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+        <state relative-caret-position="81">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding />
         </state>
       </provider>
