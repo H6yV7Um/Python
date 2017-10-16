@@ -1,13 +1,13 @@
 """
-card_tools: 这是项目运行的工具类,包含了要用到的所有函数
+card_tools: 工具类,包含主程序要用的所有函数
 """
 
 # 定义一个空列表存储数据,放在第一行,这样所有函数都能使用该数据
 card_list = []
 
 
+# 显示功能列表
 def show_menu():
-    # 显示功能列表
     print("*" * 50)
     print("欢迎使用【名片管理系统】 V 1.0")
     print("1.新增名片")
@@ -17,8 +17,8 @@ def show_menu():
     print("*" * 50)
 
 
+# 新增名片
 def new_card():
-    # 新增名片
     print("新增名片")
     print("-" * 50)
 
@@ -40,8 +40,8 @@ def new_card():
     print("新增名片 %s 成功！" % name_str)
 
 
+# 显示全部
 def show_all():
-    # 显示全部
     print("显示全部")
     print("-" * 50)
 
@@ -66,8 +66,8 @@ def show_all():
                                   card_dict["email"]))
 
 
+# 搜索名片
 def search_card():
-    # 搜索名片
     print("搜索名片")
     print("-" * 50)
 
@@ -97,9 +97,9 @@ def search_card():
         print("很抱歉,没有找到 %s 同学。。。" % find_name)
 
 
+# 处理搜索到的名片
 def card_deal(find_dict):
     """
-    处理搜索到的名片
     :param find_dict: 搜索到的名片信息
     """
 
@@ -126,9 +126,9 @@ def card_deal(find_dict):
         print("删除名片 %s 成功！" % find_dict["name"])
 
 
+# 改造input函数
 def input_new(old_value, new_value):
     """
-    新的键盘输入函数
     :param old_value: 原有字典value值
     :param new_value: 用户键盘输入的新的value值
     :return: 返回结果值

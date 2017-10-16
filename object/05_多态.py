@@ -1,5 +1,6 @@
 """
-多态:
+多态: 定义时和运行时的数据类型不一样
+     和java/c++不同,python是弱类型语言,传参时不需要指定数据类型,所以python中多态体现的不明显
 """
 
 
@@ -28,8 +29,9 @@ class Person(object):
         dog.bark()
 
 
-# sky = Dog("sky")
+sky = Dog("sky")
 infi = Hsq("infi")
 
 moon = Person("moon")
+moon.play_to_dog(sky)
 moon.play_to_dog(infi)

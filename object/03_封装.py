@@ -1,14 +1,6 @@
 """
-一个对象的属性可以是另一个类创建的对象: 比如士兵的枪,士兵可以调用枪做事情
 封装: 将方法的实现细节封装在类中,需要使用时让对象调用方法就可以
-is和==区别：
-is: 比较变量的内存地址(是否引用同一个对象),是身份运算符(is/is not)
-==: 比较变量的内容
-a = [1,2,3]
-b = [1,2]
-b.append(3)
-a is b(false)
-a == b(true)
+     一个对象的属性可以是另一个类创建的对象: 比如士兵的枪,士兵可以调用枪做事情
 """
 
 
@@ -31,7 +23,7 @@ class Gun:
     # 射击
     def shoot(self):
         # 1、先判断子弹数量
-        if self.bullet_num <= 0:
+        if self.bullet_num == 0:
             print("没有子弹了,先去装子弹吧！")
             return
 
@@ -50,10 +42,10 @@ class Soldier:
         # 枪-新兵还没有枪(定义类的属性时,如果不知道设置什么初始值,可以写None)
         self.gun = None
 
-    # 士兵开火
     def __str__(self):
         return "我是士兵 %s" % self.name
 
+    # 士兵开火
     def fire(self):
         # 1、先判断士兵是否有枪
         if self.gun is None:

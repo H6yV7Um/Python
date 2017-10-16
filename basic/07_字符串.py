@@ -53,7 +53,7 @@ num_str = "0123456789"
 print(num_str[2:6])   # 截取2~5位置
 print(num_str[2:])    # 截取2~末尾
 print(num_str[0:6])   # 截取0~5位置
-print(num_str[:])     # 截取 开头~末尾
+print(num_str[:])     # 截取开头~末尾
 print(num_str[::2])   # 从0位置每隔一个取一个(步长=2)
 print(num_str[1::2])  # 从1位置每隔一个取一个(步长=2)
 print(num_str[2:-1])  # 截取从2~末尾-1

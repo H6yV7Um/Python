@@ -1,5 +1,5 @@
 """
-card_main: 这是项目运行的主程序
+card_main: 主程序
 """
 
 from card_manager import card_tools
