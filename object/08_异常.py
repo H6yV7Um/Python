@@ -21,25 +21,23 @@
 """
 
 
-def input_pwd():
+class Test(object):
+    def __init__(self, switch):
+        self.switch = switch
 
-    # 1、输入密码
-    pwd = input("输入密码:")
-
-    # 2、判断密码长度
-    if len(pwd) == 6:
-        return pwd
-
-    # 3、创建异常对象,提示错误信息
-    ex = Exception("长度有误！")
-
-    # 4、主动抛出异常
-    raise ex
+    def cal(self, a, b):
+        try:
+            return a / b
+        except Exception as result:
+            if self.switch:
+                # 将异常打印在控制台
+                print("捕获到的异常：%s" % result)
+            else:
+                # 抛出异常给方法调用者
+                raise
 
 
-# 调用函数的时候再处理异常,而不是写在函数内部
-try:
-    print(input_pwd())
-# 此处的Exception就是函数内部创建的异常对象
-except Exception as result:
-    print(result)
+t = Test(True)
+t.cal(10, 0)
+t.switch = False
+t.cal(10, 0)

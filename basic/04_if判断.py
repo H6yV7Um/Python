@@ -57,14 +57,38 @@ import random
 #     print("大哥请先去买票")
 
 # 练习1
-computer = random.randint(1, 3)
-player = int(input("请输入数字,剪刀(1)/石头(2)/布(3):"))
-print("电脑出的是 %d 玩家出的是 %d" % (computer, player))
-if (computer == 1 and player == 2) \
-        or (computer == 2 and player == 3) \
-        or (computer == 3 and player == 1):
-    print("玩家赢")
-elif computer == player:
-    print("平局")
-else:
-    print("电脑赢")
+# computer = random.randint(1, 3)
+# player = int(input("请输入数字,剪刀(1)/石头(2)/布(3):"))
+# print("电脑出的是 %d 玩家出的是 %d" % (computer, player))
+# if (computer == 1 and player == 2) \
+#         or (computer == 2 and player == 3) \
+#         or (computer == 3 and player == 1):
+#     print("玩家赢")
+# elif computer == player:
+#     print("平局")
+# else:
+#     print("电脑赢")
+
+"""
+if判断: 0,(),[],{},"",None都表示条件为假,等价于False;非0表示真
+"""
+if 0:
+    print("haha")
+if ():
+    print("haha")
+if []:
+    print("haha")
+if {}:
+    print("haha")
+if "":
+    print("haha")
+if None:
+    print("haha")
+if False:
+    print("haha")
+if 1:
+    print("haha")
+if -1:
+    print("haha")
+if 1 == 1:
+    print("haha")

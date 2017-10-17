@@ -16,47 +16,47 @@ import os
 文件读写
 """
 
-# 1、打开文件
-file1 = open("E://aaa.txt", encoding='utf-8')
-file2 = open("E://bbb.txt", "w")
-
-# 2、读写文件
-while True:
-
-    # 按行读取
-    # text = file1.readline()
-    text = file1.readlines()
-    print(type(text))
-
-    # 判断是否到末尾
-    if not text:
-        break
-
-    # 写入新文件
-    # file2.write(text)
-    for t in text:
-        file2.write(t)
-
-# 3、关闭文件
-file1.close()
-file2.close()
+# # 1、打开文件
+# file1 = open("E://aaa.txt", encoding='utf-8')
+# file2 = open("E://bbb.txt", "w")
+#
+# # 2、读写文件
+# while True:
+#
+#     # 按行读取
+#     # text = file1.readline()
+#     text = file1.readlines()
+#     print(type(text))
+#
+#     # 判断是否到末尾
+#     if not text:
+#         break
+#
+#     # 写入新文件
+#     # file2.write(text)
+#     for t in text:
+#         file2.write(t)
+#
+# # 3、关闭文件
+# file1.close()
+# file2.close()
 
 """
 文件定位
 """
 
-file = open("E://aaa.txt", encoding='utf-8')
-str1 = file.read(5)
-print("读取的字符串是 %s" % str1)
-position = file.tell()
-print("当前文件位置是 %s" % position)
-file.seek(3, 0)
-str2 = file.read()
-print("读取的字符串是 %s" % str2)
-file.close()
+# file = open("E://aaa.txt", encoding='utf-8')
+# str1 = file.read(5)
+# print("读取的字符串是 %s" % str1)
+# position = file.tell()
+# print("当前文件位置是 %s" % position)
+# file.seek(3, 0)
+# str2 = file.read()
+# print("读取的字符串是 %s" % str2)
+# file.close()
 
 """
-文件相关操作: 需要导入python的os模块
+文件相关操作: 导入os模块
 os.rename(path1, path2): 重命名
 os.remove(): 刪除文件
 os.mkdir(): 创建文件夹
@@ -84,13 +84,24 @@ os.path.getsize(filename): 获取文件大小,求文件夹大小的话需要递�
 #     os.rename(dir_name + file, dir_name + 'python-' + file)
 
 # 删除空文件
-dir_name = "D://"
-file_list = os.listdir(dir_name)
-print(file_list)
-for file in file_list:
-    print(file)
-    if os.path.getsize(dir_name + file) == 0:
-        os.remove(dir_name + file)
+# dir_name = "D://"
+# file_list = os.listdir(dir_name)
+# print(file_list)
+# for file in file_list:
+#     print(file)
+#     if os.path.getsize(dir_name + file) == 0:
+#         os.remove(dir_name + file)
+#
+# print(os.path.getsize("E://aaa.txt"))
 
-print(os.path.getsize("E://aaa.txt"))
-
+# 遍历文件夹获取指定后缀名文件
+dir_name = "E://eclipse/"
+def digui(path, suffix):
+    list = os.listdir(path)
+    for l in list:
+        if os.path.isfile(path + l):
+            if l.endswith(suffix):
+                print(path+l)
+        else:
+            digui(path + l + "/", suffix)
+digui(dir_name, ".ini")
