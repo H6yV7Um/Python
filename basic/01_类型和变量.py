@@ -88,10 +88,12 @@ is: 比较内存地址(是否引用同一个对象),是身份运算符(is/is not
 """
 
 a = [1, 2, 3]
-b = [1, 2]
-b.append(3)
-a is b  # false
-a == b  # true
+b = [1, 2, 3]
+c = a
+print(a is b)  # false
+print(a == b)  # true
+print(a is c)  # true
+print(a == c)  # true
 
 """
 交换两个变量值

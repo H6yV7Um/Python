@@ -38,7 +38,7 @@ for name in name_list:
 print(name_list)
 
 """
-列表生成式: 轻量级循环创建列表
+列表生成器: 轻量级循环创建列表
 range()使用风险: python2的range(a,b)返回的是包含所有值的list,如果list足够长会占用大量内存空间,可能会MemoryError
                 python3的range(a,b)返回的不是list,只有循环才会返回所有值,不存在该问题
 range(a,b): 范围包左不包右

@@ -1,9 +1,10 @@
+import sys
+
 """
 类: 大花猫(模型)
 对象: 我家里养的那条大花猫(实物)
 sys.getrefcount(object): 可以判断对象的引用计数,结果是真实个数+1,对象消失会报错
 """
-import sys
 
 
 class Cat:
@@ -26,18 +27,18 @@ class Cat:
         print("%s 爱吃鱼" % self.name)
 
 
-cat01 = Cat("Tom")
-print(cat01)  # 改造__str__方法后,print不再输出地址值而是__str__方法return的值
-cat01.eat()
-# del cat01  # 手动删除对象,提前从内存中销毁,然后执行下方代码
-print("-" * 30)  # cat01是全局变量,所有代码执行完才会从内存中销毁
-print(sys.getrefcount(cat01))
-cat02 = cat01
-print(sys.getrefcount(cat01))
-del cat02
-print(sys.getrefcount(cat01))
-del cat01
-print(sys.getrefcount(cat01))
+# cat01 = Cat("Tom")
+# print(cat01)  # 改造__str__方法后,print不再输出地址值而是__str__方法return的值
+# cat01.eat()
+# # del cat01  # 手动删除对象,提前从内存中销毁,然后执行下方代码
+# print("-" * 30)  # cat01是全局变量,所有代码执行完才会从内存中销毁
+# print(sys.getrefcount(cat01))
+# cat02 = cat01
+# print(sys.getrefcount(cat01))
+# del cat02
+# print(sys.getrefcount(cat01))
+# del cat01
+# print(sys.getrefcount(cat01))
 
 """
 跑步案例 
@@ -131,7 +132,9 @@ my_home.add_furniture(table)
 print(my_home)
 
 """
-在变量和方法的名称前面加上__代表私有化,不能在类的外部访问
+私有化: __xx私有化属性/方法,防止与子类名字冲突,不能在类的外部访问,因为名字重整变成了_Class__object
+       _xx私有化属性/方法,from A import * 时不能被导入
+       xx_避免与关键词冲突
 """
 
 
@@ -152,3 +155,25 @@ moon.secret()
 # moon.__secret()
 # 如何访问私有属性和方法呢?
 moon._Girl__secret()
+
+"""
+property属性: 对方法进行封装,升级类中getter、setter方法,方便设置/取值
+"""
+
+
+class Test(object):
+    def __init__(self):
+        self.__num = 100
+
+    @property
+    def num(self):
+        return self.__num
+
+    @num.setter
+    def num(self, value):
+        self.__num = value
+
+
+t = Test()
+t.num = 200  # 相当于调用t.setNum(200)
+print(t.num)  # 相当于调用t.getNum()
