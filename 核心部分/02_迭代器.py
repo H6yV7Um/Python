@@ -22,11 +22,10 @@ print(isinstance({}, Iterator))  # False
 print(isinstance((i for i in range(1, 10)), Iterator))  # True
 
 a = [11, 22, 33]
-print(iter(a))
 b = iter(a)
-print(b)
-print(next(b))
-print(next(b))
-print(next(b))
+print(b)  # <list_iterator object at 0x0000020B96AFD198>
+print(next(b))  # 11
+print(next(b))  # 22
+print(next(b))  # 33
 
 print(isinstance(iter([]), Iterator))  # True

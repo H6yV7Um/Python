@@ -30,10 +30,10 @@ def test02():
     b = [44, 55, 66]
     c1 = [a, b]
     c2 = (a, b)
-    d1 = copy.deepcopy(c1)
-    d2 = copy.deepcopy(c2)
     print(c1)  # [[11, 22, 33], [44, 55, 66]]
     print(c2)  # ([11, 22, 33], [44, 55, 66])
+    d1 = copy.deepcopy(c1)
+    d2 = copy.deepcopy(c2)
     print(id(c1))  # 14526536
     print(id(d1))  # 14528264
     print(id(c2))  # 10623560
@@ -53,10 +53,10 @@ def test03():
     b = [44, 55, 66]
     c1 = [a, b]
     c2 = (a, b)
-    d1 = copy.copy(c1)
-    d2 = copy.copy(c2)
     print(c1)  # [[11, 22, 33], [44, 55, 66]]
     print(c2)  # ([11, 22, 33], [44, 55, 66])
+    d1 = copy.copy(c1)
+    d2 = copy.copy(c2)
     print(id(c1))  # 12232776
     print(id(d1))  # 11852616
     print(id(c2))  # 6822472

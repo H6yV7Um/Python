@@ -1,6 +1,6 @@
 """
-列表: 用[]表示,通常存放同一种类型数据,可以CRUD
-集合: 用{}表示,可以对元组或列表去重,可以CRUD
+列表list: 用[]表示,通常存放同一种类型数据,可以CRUD
+集合set: 用{}表示,可以对元组或列表去重,可以CRUD
 """
 
 name_list = ["grubby", "sky", "moon"]
@@ -38,6 +38,20 @@ for name in name_list:
 print(name_list)
 
 """
+set: 去重,无序
+"""
+a = (22, 22, 11, 33, "grubby", True)
+b = [22, 22, 11, 33]
+c = set(a)
+d = set(b)
+print(a)  # (22, 22, 11, 33, 'grubby', True)
+print(b)  # [22, 22, 11, 33]
+print(c)  # {33, 'grubby', 11, 22, True}
+print(d)  # {33, 11, 22}
+
+print("=" * 50)
+
+"""
 列表生成器: 轻量级循环创建列表
 range()使用风险: python2的range(a,b)返回的是包含所有值的list,如果list足够长会占用大量内存空间,可能会MemoryError
                 python3的range(a,b)返回的不是list,只有循环才会返回所有值,不存在该问题
@@ -58,22 +72,13 @@ print(a)
 a = [[x, y, z] for x in range(1, 2) for y in range(2, 4) for z in range(3, 5)]
 print(a)
 
-# 需求1:生成一个[[1,2,3],[4,5,6]....]的列表最大值在100以内
+# 需求1: 生成一个[[1,2,3],[4,5,6]....]的列表最大值在100以内
 a = [[i, i + 1, i + 2] for i in range(1, 98, 3)]
 print(a)
 
-# 需求2:将[1,2,3,...100]变成[[1,2,3],[4,5,6]....]
-a = [i for i in range(1,101)]
+# 需求2: 将[1,2,3,...100]变成[[1,2,3],[4,5,6]....]
+a = [i for i in range(1, 101)]
 print(a)
-b = [[a[x],a[x+1],a[x+2]] for x in range(0,98,3)]
+b = [[a[x], a[x + 1], a[x + 2]] for x in range(0, 98, 3)]
 b.append([100])
 print(b)
-
-a = (22,22,11,33,"grubby",True)
-b = [22,22,11,33]
-c = set(a)
-d = set(b)
-print(a)
-print(b)
-print(c)
-print(d)

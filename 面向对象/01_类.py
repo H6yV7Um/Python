@@ -176,4 +176,5 @@ class Test(object):
 
 t = Test()
 t.num = 200  # 相当于调用t.setNum(200)
-print(t.num)  # 相当于调用t.getNum()
+result = t.num  # 相当于调用t.getNum()
+print(result)

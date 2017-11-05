@@ -13,13 +13,13 @@ def test(num1):
         print(num1 + num2)
 
     print("---3---")
-    return test_in
+    return test_in  # 注意: 此处只写函数名,没有()
 
 
-print(test(100))  # test()表示调用这个函数
-print(test)  # test表示指向这个函数体的引用
-res = test(100)
-print("*" * 30)
+print(test)  # test表示这是一个函数
+res = test(100)  # test()表示调用这个函数
+print(res)
+print("=" * 50)
 res(100)
 res(200)
 
