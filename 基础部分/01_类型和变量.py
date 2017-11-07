@@ -117,3 +117,23 @@ a = a - b
 a, b = b, a  # 当返回结果是元组时,()可以省略
 print(a)
 print(b)
+
+print("=" * 50)
+
+"""
+LEGB规则: python使用LEGB的顺序来查找符号对应的对象
+locals: 局部变量
+enclosing: 外部嵌套函数(闭包中常见)
+globals: 全局变量
+builtins: python类建的(自带的),与之对应的是像os、random这些要导入的模块
+"""
+num = 100
+def test1():
+    # num = 200
+    def test2():
+        # num = 300
+        print(num)
+    return test2
+
+ret = test1()
+ret()
