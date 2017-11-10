@@ -81,7 +81,7 @@ def sum_num(n):
 
 
 result = sum_num(100)
-print(result)
+print(result)  # 5050
 
 
 # 菲波那切数列
@@ -93,7 +93,7 @@ def fibonacci(n):
 
 
 result = fibonacci(10)
-print(result)
+print(result)  # 55
 
 """
 匿名函数: 默认返回冒号后面的表达式运算结果,只能完成简单功能,复杂功能还是得def
@@ -109,7 +109,7 @@ def test(a, b):
 
 func = lambda a, b: a + b
 
-result1 = test(11, 22)
+result1 = test(11, 22)  # test函数并没有返回值
 print(result1)  # None
 result2 = func(11, 22)
 print(result2)  # 33
