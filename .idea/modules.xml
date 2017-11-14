@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/01_python基础.iml" filepath="$PROJECT_DIR$/.idea/01_python基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../名片管理系统/.idea/名片管理系统.iml" filepath="$PROJECT_DIR$/../名片管理系统/.idea/名片管理系统.iml" />
     </modules>
   </component>
 </project>

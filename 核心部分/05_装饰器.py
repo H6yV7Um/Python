@@ -104,14 +104,26 @@ def f5():
 f4()
 f5()
 
+print("=" * 50)
+
 """
-类装饰器: 用类装饰函数
+类装饰器: 用类装饰函数,先创建对象并执行__init__()函数初始化
 """
 class Test(object):
     def __init__(self, func):
-        print("初始化")
+        print("---正在初始化---")
         print("func name is %s" % func.__name__)
         self.__func = func
 
+    # 如果直接调用对象的话,对象中必须要有callable的函数,即__call__()
     def __call__(self, *args, **kwargs):
-        print("")
+        print("---正在装饰---")
+        self.__func()
+
+
+@Test  # test = Test(test) 解释器执行到这里就已经开始装饰,此时test是由Test类创建的对象,而不再是原来的test函数
+def test():
+    print("---test---")
+
+test()
+

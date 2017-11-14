@@ -49,6 +49,17 @@ print(b)  # [22, 22, 11, 33]
 print(c)  # {33, 'grubby', 11, 22, True}
 print(d)  # {33, 11, 22}
 
+e = {'a', 'b', 'c', 'd', 'e', 'f'}
+f = {'d', 'e', 'f', 'g'}
+# 交集
+print(e & f)  # {'d', 'e', 'f'}
+# 并集
+print(e | f)  # {'d', 'g', 'a', 'f', 'e', 'c', 'b'}
+# 差集
+print(e - f)  # {'c', 'a', 'b'}
+# 异或
+print(e ^ f)  # {'c', 'g', 'a', 'b'}
+
 print("=" * 50)
 
 """
