@@ -32,6 +32,7 @@ print(m)  # <md5 HASH object @ 0x0000020D5C1709E0>
 m.update("hello".encode("utf-8"))
 # 返回十六进制数字字符串
 print(m.hexdigest())  # 5d41402abc4b2a76b9719d911017c592
-# 不管如何更新hash对象,最终返回的都是32位的一串数值
+# 不管如何更新hash对象,最终返回的都是32位长度的一串数值
 m.update("jhsahdskdsadaldwsandadasndal".encode("utf-8"))
 print(m.hexdigest())  # 0bec77eeeedd61ea5db95c0202b68d45
+
