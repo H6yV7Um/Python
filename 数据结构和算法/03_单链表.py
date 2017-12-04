@@ -166,5 +166,5 @@ if __name__ == "__main__":
     sll.travel()
     print(sll.search(11))
     print(sll.search(10))
-    # sll.remove(22)
+    sll.remove(22)
     sll.travel()

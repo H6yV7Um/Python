@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/list和dict内置方法.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/python变量标识的本质.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/算法复杂度.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/顺序表删除元素.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/顺序表增加元素.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据库/01_sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/01_算法引入.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/03_单链表.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据库/mysql.py" afterPath="$PROJECT_DIR$/数据库/mysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构和算法/03_单链表.py" afterPath="$PROJECT_DIR$/数据结构和算法/03_单链表.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/数据结构和算法/03_单链表.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+              <caret line="169" column="16" lean-forward="true" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -378,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511100607561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1512400379037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512400379037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +766,7 @@
     <entry file="file://$PROJECT_DIR$/数据结构和算法/03_单链表.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+          <caret line="169" column="16" lean-forward="true" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
           <folding />
         </state>
       </provider>
