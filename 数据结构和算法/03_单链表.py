@@ -3,22 +3,8 @@
        元素域elem用来存放具体数据
        链接域next用来存放下一个节点位置
        变量p指向链表的头节点位置,从p出发能找到表中的任意节点
-"""
 
-
-# 节点实现
-class Node(object):
-    """单链表的节点"""
-
-    def __init__(self, item):
-        # item存放元素
-        self.item = item
-        # next是下一个节点的标识
-        self.next = None
-
-
-"""
-单链表的操作: 
+常用操作:
 is_empty() 链表是否为空
 length() 链表长度
 travel() 遍历整个链表
@@ -29,6 +15,15 @@ remove(item) 删除节点
 search(item) 查找节点是否存在
 """
 
+# 节点实现
+class Node(object):
+    """单链表的节点"""
+
+    def __init__(self, item):
+        # item存放元素
+        self.item = item
+        # next是下一个节点的标识
+        self.next = None
 
 # 单链表实现
 class SingleLinkedList(object):
