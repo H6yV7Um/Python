@@ -1,7 +1,7 @@
 """
 单链表: 是链表中最简单一种形式,每个节点包含元素和链接两部分,这个链接指向链表中的下一个节点,最后一个节点的链接指向空值
-       元素域elem用来存放具体数据
-       链接域next用来存放下一个节点位置
+       元素域elem存放具体数据
+       链接域next存放下一个节点位置
        变量p指向链表的头节点位置,从p出发能找到表中的任意节点
 
 常用操作:
@@ -29,7 +29,7 @@ class Node(object):
 class SingleLinkedList(object):
     """单链表"""
 
-    def __init__(self):
+    def __init__(self, node=None):
         # 不管链表长什么样肯定先有个链表头
         self.head = None
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构和算法/04_双链表.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py" afterPath="$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构和算法/03_单链表.py" afterPath="$PROJECT_DIR$/数据结构和算法/03_单链表.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,21 +28,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_数据结构引入.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="02_数据结构引入.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="202">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_单链表.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03_单链表.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构和算法/03_单链表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3213">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="3645">
+              <caret line="135" column="27" lean-forward="false" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_双链表.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构和算法/04_双链表.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -133,8 +145,9 @@
         <option value="$PROJECT_DIR$/数据库/01_sql" />
         <option value="$PROJECT_DIR$/数据库/03_sql" />
         <option value="$PROJECT_DIR$/数据结构和算法/01_算法引入.py" />
-        <option value="$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py" />
         <option value="$PROJECT_DIR$/数据结构和算法/03_单链表.py" />
+        <option value="$PROJECT_DIR$/数据结构和算法/04_双链表.py" />
+        <option value="$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py" />
       </list>
     </option>
   </component>
@@ -163,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -206,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03_单链表">
+  <component name="RunManager" selected="Python.04_双链表">
     <configuration name="01_算法引入" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,19 +254,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="08_列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04_双链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础部分" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构和算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础部分/08_列表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构和算法/04_双链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,19 +340,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.09_getattribute属性" />
-      <item index="1" class="java.lang.String" itemvalue="Python.10_常见内建函数" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11_常见模块" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01_算法引入" />
-      <item index="4" class="java.lang.String" itemvalue="Python.03_单链表" />
+      <item index="0" class="java.lang.String" itemvalue="Python.08_列表" />
+      <item index="1" class="java.lang.String" itemvalue="Python.11_常见模块" />
+      <item index="2" class="java.lang.String" itemvalue="Python.01_算法引入" />
+      <item index="3" class="java.lang.String" itemvalue="Python.03_单链表" />
+      <item index="4" class="java.lang.String" itemvalue="Python.04_双链表" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.03_单链表" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01_算法引入" />
-        <item index="2" class="java.lang.String" itemvalue="Python.10_常见内建函数" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.04_双链表" />
+        <item index="1" class="java.lang.String" itemvalue="Python.03_单链表" />
+        <item index="2" class="java.lang.String" itemvalue="Python.01_算法引入" />
         <item index="3" class="java.lang.String" itemvalue="Python.11_常见模块" />
-        <item index="4" class="java.lang.String" itemvalue="Python.09_getattribute属性" />
       </list>
     </recent_temporary>
   </component>
@@ -385,19 +397,26 @@
       <option name="project" value="LOCAL" />
       <updated>1512400401899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1512400513618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512400513618</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15446559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15300146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27962086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27962086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -452,13 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/核心部分/11_常见模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/核心部分/06_生成器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构和算法/顺序表删除元素.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -775,8 +779,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构和算法/03_单链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3213">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="3645">
+          <caret line="135" column="27" lean-forward="false" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法/04_双链表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法/02_数据结构引入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
