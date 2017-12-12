@@ -30,8 +30,8 @@ class SingleLinkedList(object):
     """单链表"""
 
     def __init__(self, node=None):
-        # 不管链表长什么样肯定先有个链表头
-        self.head = None
+        # 链表头
+        self.head = node
 
     # 判断链表是否为空
     def is_empty(self):
@@ -56,7 +56,7 @@ class SingleLinkedList(object):
         # 将cur不断往后移
         while cur is not None:
             # 打印当前元素
-            print(cur.item, end=' ')
+            print(cur.item, end=" ")
             # 将cur移至下一位
             cur = cur.next
         print()
@@ -83,6 +83,7 @@ class SingleLinkedList(object):
             cur = self.head
             while cur.next is not None:
                 cur = cur.next
+            # 将尾节点的next指向node
             cur.next = node
 
     # 指定位置添加元素
@@ -150,7 +151,7 @@ class SingleLinkedList(object):
 
 # 测试代码
 if __name__ == "__main__":
-    sll = SingleLinkedList()
+    sll = SingleLinkedList(None)
     print(sll.is_empty())
     print(sll.length())
     sll.add(11)
