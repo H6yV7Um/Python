@@ -71,17 +71,17 @@ range(a,b): 范围包左不包右
 a = [10, 11, 12]
 print(a)
 a = [i for i in range(1, 10)]  # for语句控制循环次数,每循环一次都会执行i
-print(a)
+print(a)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 a = [i for i in range(1, 10, 2)]  # 第三个参数表示步长
-print(a)
+print(a)  # [1, 3, 5, 7, 9]
 a = [5 for i in range(1, 10)]
-print(a)
+print(a)  # [5, 5, 5, 5, 5, 5, 5, 5, 5]
 a = [i for i in range(1, 10) if i % 2 == 0]
-print(a)
+print(a)  # [2, 4, 6, 8]
 a = [(x, y) for x in range(1, 3) for y in range(1, 4)]  # 嵌套for循环
-print(a)
+print(a)  # [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)]
 a = [[x, y, z] for x in range(1, 2) for y in range(2, 4) for z in range(3, 5)]
-print(a)
+print(a)  # [[1, 2, 3], [1, 2, 4], [1, 3, 3], [1, 3, 4]]
 
 # 需求1: 生成一个[[1,2,3],[4,5,6]....]的列表最大值在100以内
 a = [[i, i + 1, i + 2] for i in range(1, 98, 3)]

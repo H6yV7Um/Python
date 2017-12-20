@@ -29,9 +29,9 @@ class Node(object):
 class DoubleLinkedList(object):
     """双链表"""
 
-    def __init__(self, node=None):
+    def __init__(self):
         # 链表头
-        self.head = node
+        self.head = None
 
     # 判断链表是否为空
     def is_empty(self):
@@ -156,7 +156,7 @@ class DoubleLinkedList(object):
 
 # 测试代码
 if __name__ == "__main__":
-    dll = DoubleLinkedList(None)
+    dll = DoubleLinkedList()
     print(dll.is_empty())
     print(dll.length())
     dll.add(11)

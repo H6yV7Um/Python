@@ -52,5 +52,8 @@ if __name__ == "__main__":
     q.inqueue(33)
     print(q.size())  # 3
     print(q.outqueue())  # 11
+    print(q.size())  # 2
     print(q.outqueue())  # 22
+    print(q.size())  # 1
     print(q.outqueue())  # 33
+    print(q.size())  # 0

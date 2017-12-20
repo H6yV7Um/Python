@@ -29,9 +29,9 @@ class Node(object):
 class SingleLinkedList(object):
     """单链表"""
 
-    def __init__(self, node=None):
+    def __init__(self):
         # 链表头
-        self.head = node
+        self.head = None
 
     # 判断链表是否为空
     def is_empty(self):
@@ -151,7 +151,7 @@ class SingleLinkedList(object):
 
 # 测试代码
 if __name__ == "__main__":
-    sll = SingleLinkedList(None)
+    sll = SingleLinkedList()
     print(sll.is_empty())
     print(sll.length())
     sll.add(11)
