@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/爬虫/01_爬虫简介.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/爬虫/02_urllib2库.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/进程和线程/02_线程.py" afterPath="$PROJECT_DIR$/进程和线程/02_线程.py" />
     </list>
@@ -17,7 +19,7 @@
       <file leaf-file-name="01_进程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/进程和线程/01_进程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1593">
+            <state relative-caret-position="1512">
               <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
@@ -26,14 +28,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_线程.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02_线程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/进程和线程/02_线程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="3132">
+              <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_爬虫简介.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/01_爬虫简介.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02_urllib2库.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/02_urllib2库.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python35/Lib/urllib/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="162" column="10" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/核心部分/05_装饰器.py" />
         <option value="$PROJECT_DIR$/核心部分/07_元类.py" />
         <option value="$PROJECT_DIR$/核心部分/08_垃圾回收.py" />
         <option value="$PROJECT_DIR$/核心部分/09_getattribute属性.py" />
@@ -138,6 +169,11 @@
         <option value="$PROJECT_DIR$/进程和线程/02_Process子类创建进程.py" />
         <option value="$PROJECT_DIR$/进程和线程/01_进程.py" />
         <option value="$PROJECT_DIR$/进程和线程/02_线程.py" />
+        <option value="$PROJECT_DIR$/爬虫/__init__.py" />
+        <option value="$PROJECT_DIR$/爬虫/01_了解爬虫.py" />
+        <option value="$PROJECT_DIR$/爬虫/01_爬虫简介.py" />
+        <option value="$PROJECT_DIR$/爬虫/02_urllib2.py" />
+        <option value="$PROJECT_DIR$/爬虫/02_urllib2库.py" />
       </list>
     </option>
   </component>
@@ -166,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,13 +214,12 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="进程和线程" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02_线程">
+  <component name="RunManager" selected="Python.02_urllib2库">
     <configuration name="01_进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,19 +297,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="04_进程间通信" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_urllib2库" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/进程和线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进程和线程/04_进程间通信.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/02_urllib2库.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,18 +385,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.10_二叉树" />
       <item index="1" class="java.lang.String" itemvalue="Python.02_Process子类创建进程" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_进程间通信" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05_多线程" />
-      <item index="4" class="java.lang.String" itemvalue="Python.01_进程" />
-      <item index="5" class="java.lang.String" itemvalue="Python.02_线程" />
+      <item index="2" class="java.lang.String" itemvalue="Python.05_多线程" />
+      <item index="3" class="java.lang.String" itemvalue="Python.01_进程" />
+      <item index="4" class="java.lang.String" itemvalue="Python.02_线程" />
+      <item index="5" class="java.lang.String" itemvalue="Python.02_urllib2库" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.02_线程" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01_进程" />
-        <item index="2" class="java.lang.String" itemvalue="Python.02_Process子类创建进程" />
-        <item index="3" class="java.lang.String" itemvalue="Python.05_多线程" />
-        <item index="4" class="java.lang.String" itemvalue="Python.04_进程间通信" />
+        <item index="0" class="java.lang.String" itemvalue="Python.02_urllib2库" />
+        <item index="1" class="java.lang.String" itemvalue="Python.02_线程" />
+        <item index="2" class="java.lang.String" itemvalue="Python.01_进程" />
+        <item index="3" class="java.lang.String" itemvalue="Python.02_Process子类创建进程" />
+        <item index="4" class="java.lang.String" itemvalue="Python.05_多线程" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515077107996</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1515426205759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515426205759</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -460,7 +503,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1566618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37124804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3949447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -517,27 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/面向对象/01_类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础部分/07_元组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据库/01_sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/核心部分/07_元类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -808,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进程和线程/01_进程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
+        <state relative-caret-position="1512">
           <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -818,11 +840,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进程和线程/02_线程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="3132">
+          <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/01_爬虫简介.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="162" column="10" lean-forward="false" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/02_urllib2库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
