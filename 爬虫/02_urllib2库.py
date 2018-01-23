@@ -25,7 +25,7 @@ request = urllib.request.Request(url, headers=ua_headers)
 response = urllib.request.urlopen(request)
 
 # 输出服务器相应内容
-#print(response.read())
+print(response.read())
 
 # 输出HTTP响应码,成功返回200，4服务器页面出错，5服务器问题
 print(response.getcode())
