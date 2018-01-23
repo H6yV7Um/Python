@@ -66,8 +66,7 @@ c) 分析这些HTML页面,找出页面里其他的URL连接,继续执行第二�
 DNS: 就是把域名解析成IP的一种技术.
 
 通用爬虫需要遵守规则:
-Robots协议: 会告诉搜索引擎该网站各个页面的爬取权限
-Robots.txt只是一个建议,一般只有大型的搜索引擎爬虫才会遵守
+Robots协议: 会告诉搜索引擎该网站各个页面的爬取权限,一般只有大型的搜索引擎爬虫才会遵守
 淘宝网: https://www.taobao.com/robots.txt
 腾讯网: http://www.qq.com/robots.txt
 
