@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/爬虫/tieba.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/01_爬虫简介.py" afterPath="$PROJECT_DIR$/爬虫/01_爬虫简介.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/03_urllib库.py" afterPath="$PROJECT_DIR$/爬虫/03_urllib库.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +20,7 @@
       <file leaf-file-name="01_进程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/进程和线程/01_进程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
+            <state relative-caret-position="0">
               <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
@@ -29,7 +32,7 @@
       <file leaf-file-name="02_线程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/进程和线程/02_线程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2900">
+            <state relative-caret-position="2950">
               <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -38,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_爬虫简介.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01_爬虫简介.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/01_爬虫简介.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -51,9 +54,23 @@
       <file leaf-file-name="02_urllib2库.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/02_urllib2库.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="199">
               <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_urllib库.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/03_urllib库.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/核心部分/07_元类.py" />
         <option value="$PROJECT_DIR$/核心部分/08_垃圾回收.py" />
         <option value="$PROJECT_DIR$/核心部分/09_getattribute属性.py" />
         <option value="$PROJECT_DIR$/核心部分/10_内建方法.py" />
@@ -169,6 +185,7 @@
         <option value="$PROJECT_DIR$/爬虫/02_urllib2.py" />
         <option value="$PROJECT_DIR$/爬虫/02_urllib2库.py" />
         <option value="$PROJECT_DIR$/爬虫/01_爬虫简介.py" />
+        <option value="$PROJECT_DIR$/爬虫/03_urllib库.py" />
       </list>
     </option>
   </component>
@@ -197,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,12 +222,16 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,18 +579,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/核心部分/07_元类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构和算法/list和dict内置方法.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构和算法/算法复杂度.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -779,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进程和线程/01_进程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
+        <state relative-caret-position="0">
           <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -789,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进程和线程/02_线程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
+        <state relative-caret-position="2950">
           <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -798,19 +808,39 @@
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Python35/Lib/urllib/request.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/02_urllib2库.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/01_爬虫简介.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/tieba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/02_urllib2库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/03_urllib库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
