@@ -16,7 +16,6 @@ fullurl = url + "?" + wd1
 print(fullurl)
 
 request = urllib.request.Request(fullurl, headers=ua_header)
-
 response = urllib.request.urlopen(request)
 
 print(response.read())

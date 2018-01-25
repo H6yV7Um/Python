@@ -5,7 +5,11 @@ import random
 urllib在python3中被改为urllib.parse
 urllib2在python3中被改为urllib.request
 
-1、urllib.request模块
+1、urllib.parse模块
+urlencode(): 编码   --将{key:value}字典转换成"key=value"字符串,拼接能被web服务器接受的url
+unquote(): 解码
+
+2、urllib.request模块
 request方法:
 Request(): 构造请求对象,主要有3个参数: url,data(get/post请求): 默认为空;headers(http报头的键值对): 默认为空;
 urlopen(): 发送请求                         
@@ -17,11 +21,6 @@ read(): 读取服务器返回文件的内容
 info(): 返回服务器响应的HTTP报头
 getcode(): 返回HTTP请求的响应码
 geturl(): 返回返回实际数据的url,防止重定向问题
-
-2、urllib.parse模块
-urlencode(): 编码   -- Encode a dict or sequence of two-element tuples into a URL query string
-                      将{key:value}字典转换成"key=value"字符串,拼接能被web服务器接受的url
-unquote(): 解码
 """
 
 # 待爬取url
