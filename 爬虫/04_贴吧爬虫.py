@@ -7,38 +7,9 @@ import urllib.parse
 """
 
 
-def loadPage(url, filename):
-    """
-    作用: 根据url发送请求,获取服务器响应文件
-    :param url: 待爬取url地址
-    :return: html页面
-    """
-
-    # 提示信息
-    print("正在下载: " + filename)
-    ua_header = {"User-Agent": "Mozilla....."}
-    request = urllib.request.Request(url, headers=ua_header)
-    response = urllib.request.urlopen(request)
-    return response.read()
-
-
-def writePage(html, filename):
-    """
-    作用: 将爬取的html页面存储到本地文件
-    :param html: 服务器相应的html页面
-    :return:
-    """
-
-    # 提示信息
-    print("正在保存: " + filename)
-    # 写入文件
-    f = open("D://" + filename, "w")
-    f.write(str(html))
-
-
 def spider(url, begin, end):
     """
-    作用: 拼接完整的url
+    作用: 拼接完整的url,向服务器发送http请求获取数据,然后保存到本地
     :param url: url前面部分
     :param begin: 起始页
     :param end: 结束页
@@ -60,8 +31,46 @@ def spider(url, begin, end):
         print(html)
         # 将html页面保存到本地
         writePage(html, filename)
-        # 提示信息
-        print("谢谢使用！")
+
+
+def loadPage(url, filename):
+    """
+    作用: 根据url发送请求,获取服务器响应文件
+    :param url: 待爬取url地址
+    :return: html页面
+    """
+
+    # 提示信息
+    print("正在下载: " + filename)
+    # http报头
+    ua_header = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"}
+    # 构造请求对象
+    request = urllib.request.Request(url, headers=ua_header)
+    # 向服务器发送请求
+    response = urllib.request.urlopen(request)
+    # 服务器响应内容
+    html = response.read()
+    # 看下数据类型
+    print(type(html))  # <class 'bytes'>
+    # 转成utf-8格式的字符串
+    return str(html, "utf-8")
+
+
+def writePage(html, filename):
+    """
+    作用: 将爬取的html页面存储到本地文件
+    :param html: 服务器相应的html页面
+    :return:
+    """
+
+    # 提示信息
+    print("正在保存: " + filename)
+    # 打开文件,指定模式和编码
+    f = open("C://Users/qmtv/Documents/" + filename, "w", encoding="utf-8")
+    # 写入数据
+    f.write(html)
+    # 关闭文件
+    f.close()
 
 
 if __name__ == "__main__":
