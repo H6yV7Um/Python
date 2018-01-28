@@ -66,7 +66,7 @@ def writePage(html, filename):
     # 提示信息
     print("正在保存: " + filename)
     # 打开文件,指定模式和编码
-    f = open("C://Users/qmtv/Documents/" + filename, "w", encoding="utf-8")
+    f = open("D://" + filename, "w", encoding="utf-8")
     # 写入数据
     f.write(html)
     # 关闭文件
@@ -74,7 +74,7 @@ def writePage(html, filename):
 
 
 if __name__ == "__main__":
-    # 用户输入信息
+    # 用户接口输入信息
     keyword = input("输入贴吧名称:")
     begin = int(input("起始页:"))
     end = int(input("结束页:"))
