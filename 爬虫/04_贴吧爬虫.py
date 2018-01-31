@@ -43,9 +43,9 @@ def loadPage(url, filename):
     # 提示信息
     print("正在下载: " + filename)
     # http报头
-    ua_header = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"}
     # 构造请求对象
-    request = urllib.request.Request(url, headers=ua_header)
+    request = urllib.request.Request(url, headers=headers)
     # 向服务器发送请求
     response = urllib.request.urlopen(request)
     # 服务器响应内容
@@ -53,7 +53,7 @@ def loadPage(url, filename):
     # 看下数据类型
     print(type(html))  # <class 'bytes'>
     # 转成utf-8格式的字符串
-    return str(html, "utf-8")
+    return html.decode("utf-8")
 
 
 def writePage(html, filename):
@@ -66,7 +66,7 @@ def writePage(html, filename):
     # 提示信息
     print("正在保存: " + filename)
     # 打开文件,指定模式和编码
-    f = open("D://" + filename, "w", encoding="utf-8")
+    f = open("C://users/qmtv/" + filename, "w", encoding="utf-8")
     # 写入数据
     f.write(html)
     # 关闭文件

@@ -21,6 +21,7 @@ geturl(): 返回返回实际数据的url,防止重定向问题
 """
 
 import urllib.request
+import urllib.error
 import random
 
 # 待爬取url
@@ -55,7 +56,7 @@ request.add_header("User-Agent", user_agent)
 response = urllib.request.urlopen(request)
 
 # 输出服务器相应内容
-print(response.read())
+print(response.read().decode("utf-8"))
 
 # 通过get_header()方法获取一个已有的HTTP报头,注意第一个字母大写,后面全小写
 print(request.get_header("User-agent"))

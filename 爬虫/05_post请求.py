@@ -60,5 +60,5 @@ request = urllib.request.Request(url, data=data1, headers=headers)
 # 向服务器提交请求
 response = urllib.request.urlopen(request)
 # 服务器响应数据
-result = str(response.read(), encoding="utf-8")
+result = response.read().decode("utf-8")
 print(result)
