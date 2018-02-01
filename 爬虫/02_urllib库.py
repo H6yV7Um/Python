@@ -44,6 +44,8 @@ ua_list = [
 
 # 随机选一个(针对反爬虫)
 user_agent = random.choice(ua_list)
+# print(type(user_agent))
+# print(user_agent)
 
 # 通过request()方法构造一个请求对象
 # request = urllib.request.Request(url) -- 此时User-Agent: Python-urllib/3.5
@@ -56,7 +58,8 @@ request.add_header("User-Agent", user_agent)
 response = urllib.request.urlopen(request)
 
 # 输出服务器相应内容
-print(response.read().decode("utf-8"))
+html = response.read().decode("utf-8")
+# print(type(html))
 
 # 通过get_header()方法获取一个已有的HTTP报头,注意第一个字母大写,后面全小写
 print(request.get_header("User-agent"))

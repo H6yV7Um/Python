@@ -13,17 +13,17 @@ import random
 """
 HTTPHandler处理器
 """
-# 创建httphandler处理器,专门处理http请求
-# debuglevel参数默认0,设为1会自动打开Debug log模式,程序执行时会打印收发包信息,方便调试
-http_handler = urllib.request.HTTPHandler(debuglevel=1)
-# 创建opener对象
-opener = urllib.request.build_opener(http_handler)
-# 创建request对象
-request = urllib.request.Request("http://www.baidu.com/")
-# 调用open()方法发送请求
-response = opener.open(request)
-# 输出结果
-print(response.read().decode("utf-8"))
+# # 创建httphandler处理器,专门处理http请求
+# # debuglevel参数默认0,设为1会自动打开Debug log模式,程序执行时会打印收发包信息,方便调试
+# http_handler = urllib.request.HTTPHandler(debuglevel=1)
+# # 创建opener对象
+# opener = urllib.request.build_opener(http_handler)
+# # 创建request对象
+# request = urllib.request.Request("http://www.baidu.com/")
+# # 调用open()方法发送请求
+# response = opener.open(request)
+# # 输出结果
+# print(response.read().decode("utf-8"))
 
 """
 ProxyHandler处理器: 使用代理IP,针对反爬虫
@@ -64,22 +64,22 @@ urllib.request模块:
 HTTPPasswordMgrWithDefaultRealm(): 保存私密代理的用户密码
 ProxyBasicAuthHandler(): 处理代理的身份验证。
 """
-# 用户和密码
-user = "test"
-passwd = "test"
-# 代理服务器
-proxy = "163.125.17.110:8888"
-# 创建密码管理对象
-passwdMgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
-# 添加账户信息(第一个参数realm是与远程服务器相关的域信息,一般写None,后面三个参数分别是: 代理服务器、用户名、密码)
-passwdMgr.add_password(None, proxy, user, passwd)
-# 创建代理基础用户名/密码的处理器对象
-proxyauth_handler = urllib.request.ProxyBasicAuthHandler(passwdMgr)
-# 创建opener对象
-opener = urllib.request.build_opener(proxyauth_handler)
-# 创建request对象
-request = urllib.request.Request("http://www.baidu.com")
-# 发送请求
-response = opener.open(request)
-# 输出结果
-print(response.read().decode("utf-8"))
+# # 用户和密码
+# user = "test"
+# passwd = "test"
+# # 代理服务器
+# proxy = "163.125.17.110:8888"
+# # 创建密码管理对象
+# passwdMgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
+# # 添加账户信息(第一个参数realm是与远程服务器相关的域信息,一般写None,后面三个参数分别是: 代理服务器、用户名、密码)
+# passwdMgr.add_password(None, proxy, user, passwd)
+# # 创建代理基础用户名/密码的处理器对象
+# proxyauth_handler = urllib.request.ProxyBasicAuthHandler(passwdMgr)
+# # 创建opener对象
+# opener = urllib.request.build_opener(proxyauth_handler)
+# # 创建request对象
+# request = urllib.request.Request("http://www.baidu.com")
+# # 发送请求
+# response = opener.open(request)
+# # 输出结果
+# print(response.read().decode("utf-8"))
