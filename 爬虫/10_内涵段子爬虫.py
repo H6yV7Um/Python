@@ -17,18 +17,18 @@ class Spider(object):
         request = urllib.request.Request(url, headers=headers)
 
         # 使用代理IP
-        proxy_list = [
-            {"http": "113.89.54.209:9999"},
-            {"http": "61.50.244.179:808"},
-            {"http": "58.220.95.107:8080"}
-        ]
-        proxy = random.choice(proxy_list)
-        proxy_handler = urllib.request.ProxyHandler(proxy)
-        opener = urllib.request.build_opener(proxy_handler)
-        response = opener.open(request)
+        # proxy_list = [
+        #     {"http": "113.89.54.209:9999"},
+        #     {"http": "61.50.244.179:808"},
+        #     {"http": "58.220.95.107:8080"}
+        # ]
+        # proxy = random.choice(proxy_list)
+        # proxy_handler = urllib.request.ProxyHandler(proxy)
+        # opener = urllib.request.build_opener(proxy_handler)
+        # response = opener.open(request)
 
         # 发送请求
-        # response = urllib.request.urlopen(request)
+        response = urllib.request.urlopen(request)
 
         # chardet可以测试网页编码
         # res = chardet.detect(response.read())
@@ -52,7 +52,7 @@ class Spider(object):
 
     # 保存到本地
     def writeToFile(self, item):
-        f = open("C://users/qmtv/data.txt", "a", encoding="utf-8")
+        f = open("D://data.txt", "a", encoding="utf-8")
         f.write(item)
         f.write("=" * 100)
         f.close()

@@ -1,10 +1,11 @@
 """
 pattern = re.compile("")
-pattern.match(): 从起始位置往后查找,返回第一个符合的
-pattern.search(): 从任意位置往后查找,返回第一个符合的
+pattern.match(): 从起始位置往后查找,返回第一个符合的字符串
+pattern.search(): 从任意位置往后查找,返回第一个符合的字符串
 pattern.findall(): 所有的全部匹配,返回列表
 pattern.split(): 分割字符串,返回列表
-pattern.sub(): 替换
+pattern.sub(): 替换,返回字符串
+re.I表示忽略大小写;re.S表示全文匹配而不是只匹配当前这一行
 """
 
 import re
@@ -53,3 +54,19 @@ pattern = re.compile(r"\d?")  # ?表示非贪婪模式: 尽可能获取少的
 f = pattern.findall("abc 123 def 456")
 print(f)  # ['', '', '', '', '1', '2', '3', '', '', '', '', '', '4', '5', '6', '']
 
+# split()
+pattern = re.compile("[\s\d\\\;]+")
+s = pattern.split("abc12 de;34\fg")
+print(s)  # ['abc', 'de', 'g']
+
+# sub()
+pattern = re.compile("\d+")
+str = "abc123def"
+s = pattern.sub("emmm", str)
+print(s)  # abcemmmdef
+pattern = re.compile(r"(\w+)(\w+)")
+str = "hello python"
+f = pattern.findall(str)
+print(f)  # [('hell', 'o'), ('pytho', 'n')]
+s = pattern.sub("java", str)
+print(s)  # java java
