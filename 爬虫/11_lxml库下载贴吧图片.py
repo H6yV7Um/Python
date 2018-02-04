@@ -65,6 +65,7 @@ class Spider(object):
 
         # 获取匹配到的帖子链接列表
         link_list = content.xpath('//div[@class="t_con cleafix"]/div/div/div/a/@href')
+        # link_list = content.xpath('//a[@class="j_th_tit"]/@href')
         print(link_list)
 
         # 循环列表
