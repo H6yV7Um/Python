@@ -5,11 +5,17 @@ import chardet
 
 
 class Spider(object):
+
+    # 初始化
+    def __init__(self):
+        self.page = 1
+        self.switch = True
+
     # 爬取数据
-    def loadPage(self, page):
+    def loadPage(self):
 
         # 待爬取url
-        url = "http://www.neihanpa.com/article/list_5_" + str(page) + ".html"
+        url = "http://www.neihanpa.com/article/list_5_" + str(self.page) + ".html"
         # http请求头
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36"}
@@ -45,7 +51,7 @@ class Spider(object):
         result = pattern.findall(html)
         print(type(result))  # <class 'list'>
         # print(result)
-        print("*****正在爬取第 %d 页数据*****" % page)
+        print("*****正在爬取第 %d 页数据*****" % self.page)
         for item in result:
             item = item.replace("<p>", "").replace("</p>", "").replace("<br />", "")
             self.writeToFile(item)
@@ -58,13 +64,13 @@ class Spider(object):
         f.close()
 
     # 循环爬取
-    def work(self, page):
-        while True:
-            self.loadPage(page)
-            page += 1
+    def work(self):
+        while self.switch:
+            self.loadPage()
+            self.page += 1
 
 
 if __name__ == "__main__":
     s = Spider()
-    # s.loadPage(1)
-    s.work(1)
+    # s.loadPage()
+    s.work()
