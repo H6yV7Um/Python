@@ -1,10 +1,11 @@
 """"
-HTML(Hyper Text Markup Language): 超文本标记语言;显示数据
-XML(Extensible Markup Language): 可扩展标记语言;传输和存储数据
-HTML DOM(Document Object Model for HTML): 文档对象模型;可以访问所有HTML元素
-XPath(XML Path Language): 是一种在XML文档中查找信息的语言;可以遍历XML文档中的属性和元素
-lxml库: 是一个HTML/XML解析器;用来解析和提取HTML/XML数据
-掌握要点: XPath语法(可结合XMLQuire工具调试)
+HTML(Hyper Text Markup Language): 超文本标记语言 ---> 显示数据
+XML(Extensible Markup Language): 可扩展标记语言 ---> 传输和存储数据
+HTML DOM(Document Object Model for HTML): 文档对象模型 ---> 访问和操作HTML文档
+XPath(XML Path Language): 是一种在XML文档中查找信息的语言 ---> 遍历XML文档中的属性和元素
+                          XPath使用路径表达式来选取XML文档中的节点或者节点集
+lxml库: 是一个HTML/XML解析器 ---> 用来解析和提取HTML/XML数据
+掌握要点: XPath语法(可结合XPath表达式编辑工具XMLQuire/Chrome插件XPath Helper调试)
 """
 
 import urllib.parse

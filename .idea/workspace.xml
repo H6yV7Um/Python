@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/爬虫/10_re爬内涵段子.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/进程和线程/CPU、内存、硬盘的关系.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py" afterPath="$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,17 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11_lxml库下载贴吧图片.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_re爬内涵段子.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10_re爬内涵段子.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/10_re爬内涵段子.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="751">
@@ -57,6 +48,30 @@
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11_lxml库下载贴吧图片.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2682">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="查找帖子链接的方法.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/查找帖子链接的方法.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="查找图片链接的方法.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/查找图片链接的方法.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -114,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构和算法/03_单链表.py" />
         <option value="$PROJECT_DIR$/数据结构和算法/04_双链表.py" />
         <option value="$PROJECT_DIR$/数据结构和算法/05_单向循环链表.py" />
         <option value="$PROJECT_DIR$/数据结构和算法/test.py" />
@@ -165,6 +179,7 @@
         <option value="$PROJECT_DIR$/爬虫/test.py" />
         <option value="$PROJECT_DIR$/爬虫/09_regexp.py" />
         <option value="$PROJECT_DIR$/爬虫/10_re爬内涵段子.py" />
+        <option value="$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py" />
       </list>
     </option>
   </component>
@@ -222,6 +237,11 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="进程和线程" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,6 +257,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qmtv\PycharmProjects\Python\进程和线程" />
       <recent name="D:\PycharmProjects\Python\爬虫" />
       <recent name="D:\PycharmProjects\Python\数据结构和算法" />
       <recent name="D:\PycharmProjects\Python\核心部分" />
@@ -1285,7 +1306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517798089111</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1517798178111</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1517798178111</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1393,19 +1421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构和算法/遍历二叉树.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构和算法/10_二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程和线程/pdb调试.py" />
     <entry file="file://$PROJECT_DIR$/进程和线程/fork创建子进程.py" />
     <entry file="file://$PROJECT_DIR$/进程和线程/__init__.py" />
     <entry file="file://$PROJECT_DIR$/数据结构和算法/05_栈.py">
@@ -1515,11 +1530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/http请求格式.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/urllib/request.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/01_爬虫简介.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1625,14 +1635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/10_re爬内涵段子.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
@@ -1640,6 +1642,34 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/查找图片链接的方法.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/查找帖子链接的方法.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/http请求格式.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进程和线程/CPU、内存、硬盘的关系.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/11_lxml库下载贴吧图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2682">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
