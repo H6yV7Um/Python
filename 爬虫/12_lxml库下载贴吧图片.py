@@ -66,24 +66,21 @@ class Spider(object):
         # print(type(data))  # str
         # print(data)
 
-        # 将HTML页面转为HTML DOM模型
+        # 解析HTML文档为HTML DOM(XML)模型
         html = etree.HTML(data)
         # print(type(html))  # <class 'lxml.etree._Element'>
-
-        # 获取匹配到的帖子链接列表
+        # xpath表达式解析XML,获取匹配到的帖子链接列表
         link_list = html.xpath('//div[@class="threadlist_lz clearfix"]/div/a[@rel="noreferrer"]/@href')
         print(type(link_list))  # <class 'list'>
         print(link_list)
 
         # 遍历列表
         for link in link_list:
-            print(link)
             # 拼接完整帖子链接
-            fulllink = "http://tieba.baidu.com" + link
-            print(fulllink)
-
+            full_link = "http://tieba.baidu.com" + link
+            print(full_link)
             # 调用加载图片方法
-            self.loadImage(fulllink)
+            self.loadImage(full_link)
 
     def loadImage(self, url):
         """
@@ -96,12 +93,12 @@ class Spider(object):
         # 创建请求对象
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
-        html = urllib.request.urlopen(request).read().decode("utf-8")
+        data = urllib.request.urlopen(request).read().decode("utf-8")
 
-        # 将HTML页面转为HTML DOM模型
-        content = etree.HTML(html)
-        # 获取匹配到的图片链接列表
-        link_list = content.xpath('//div/img[@class="BDE_Image"]/@src')
+        # 解析HTML文档为HTML DOM(XML)模型
+        html = etree.HTML(data)
+        # xpath表达式解析XML,获取匹配到的图片链接列表
+        link_list = html.xpath('//div/img[@class="BDE_Image"]/@src')
         # link_list = content.xpath('//div[@class="post_bubble_middle"]')
         print(link_list)
 
@@ -123,17 +120,14 @@ class Spider(object):
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
         image = urllib.request.urlopen(request).read()
-        print(type(image))
-        print(image)
         # 给每个图片命名
         filename = url[-10:]
-        print(type(filename))
-        print(filename)
         # 保存到本地
-        f = open("C://Users/Public/Pictures/filename", "wb")
-        f.write(image)
-        f.close()
         print("正在下载图片 %s" % filename)
+        with open(filename, "wb") as f:
+        # f = open("D://filename", "wb")
+            f.write(image)
+        # f.close()
 
 
 if __name__ == "__main__":
