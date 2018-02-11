@@ -73,4 +73,4 @@ class Spider(object):
 if __name__ == "__main__":
     s = Spider()
     # s.loadPage()
-s.work()
+    s.work()

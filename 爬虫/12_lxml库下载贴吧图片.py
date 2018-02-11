@@ -6,6 +6,8 @@ XPath(XML Path Language): 是一种在XML文档中查找信息的语言 ---> 遍
                           XPath使用路径表达式来选取XML文档中的节点或者节点集
 lxml库: 是一款高性能的HTML/XML解析器 ---> 用来解析和提取HTML/XML数据
 掌握要点: XPath语法(可结合XPath表达式编辑工具XMLQuire/Chrome插件XPath Helper调试)
+etree.HTML(): 将字符串解析为HTML文档
+etree.tostring(): 将元素序列化为其XML树编码的字符串表示
 """
 
 import urllib.parse
@@ -55,21 +57,25 @@ class Spider(object):
         # ]
         # # 随机选一个
         # headers = random.choice(ua_list)
-        headers = {"User-Agent": "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11"}
+
+        headers = {"User-Agent": "User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"}
         # 创建请求对象
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
-        html = urllib.request.urlopen(request).read().decode("utf-8")
+        data = urllib.request.urlopen(request).read().decode("utf-8")
+        # print(type(data))  # str
+        # print(data)
+
         # 将HTML页面转为HTML DOM模型
-        content = etree.HTML(html)
-        print(type(content))
+        html = etree.HTML(data)
+        # print(type(html))  # <class 'lxml.etree._Element'>
 
         # 获取匹配到的帖子链接列表
-        link_list = content.xpath('//div[@class="t_con cleafix"]/div/div/div/a/@href')
-        # link_list = content.xpath('//a[@class="j_th_tit"]/@href')
+        link_list = html.xpath('//div[@class="threadlist_lz clearfix"]/div/a[@rel="noreferrer"]/@href')
+        print(type(link_list))  # <class 'list'>
         print(link_list)
 
-        # 循环列表
+        # 遍历列表
         for link in link_list:
             print(link)
             # 拼接完整帖子链接
@@ -91,6 +97,7 @@ class Spider(object):
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
         html = urllib.request.urlopen(request).read().decode("utf-8")
+
         # 将HTML页面转为HTML DOM模型
         content = etree.HTML(html)
         # 获取匹配到的图片链接列表
@@ -116,10 +123,14 @@ class Spider(object):
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
         image = urllib.request.urlopen(request).read()
+        print(type(image))
+        print(image)
         # 给每个图片命名
         filename = url[-10:]
-        # 保存到本地文件
-        f = open("D://filename", "wb")
+        print(type(filename))
+        print(filename)
+        # 保存到本地
+        f = open("C://Users/Public/Pictures/filename", "wb")
         f.write(image)
         f.close()
         print("正在下载图片 %s" % filename)
