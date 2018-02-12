@@ -4,6 +4,8 @@ XML(Extensible Markup Language): 可扩展标记语言 ---> 传输和存储数�
 HTML DOM(Document Object Model for HTML): 文档对象模型 ---> 访问和操作HTML文档
 XPath(XML Path Language): 是一种在XML文档中查找信息的语言 ---> 遍历XML文档中的元素和属性
                           XPath使用路径表达式来选取XML文档中的节点或者节点集
+注意: 在chrome里用xpath helper能匹配到数据,但是在程序里可能匹配不到,因为有些网站对不同浏览器显示不同的页面;
+     此时要换成IE内核的浏览器: 遨游、世界之窗、360浏览器、腾讯浏览器、搜狗浏览器、Green Browser等
 lxml库: 是一款高性能的HTML/XML解析器 ---> 用来解析和提取HTML/XML数据
 掌握要点: XPath语法(可结合XPath表达式编辑工具XMLQuire/Chrome插件XPath Helper调试)
 etree.HTML(): 将字符串解析为HTML文档
@@ -17,15 +19,15 @@ from lxml import etree
 
 
 # 爬取贴吧中的图片
-class Spider(object):
+class TiebaSpider(object):
 
     def getURL(self, name, begin, end):
         """
-        拼接完整的贴吧URL
+        拼接完整的URL
         :return:
         """
 
-        # 待爬取URL
+        # 贴吧URL
         url = "https://tieba.baidu.com/f"
         # 对贴吧名称做URL转码
         kw = urllib.parse.urlencode({"kw": name})
@@ -48,21 +50,23 @@ class Spider(object):
         :return:
         """
 
-        # # HTTP请求头
-        # ua_list = [
-        #     {"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv2.0.1) Gecko/20100101 Firefox/4.0.1"},
-        #     {"Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"},
-        #     {"Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11"},
-        #     {"Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11"}
-        # ]
-        # # 随机选一个
-        # headers = random.choice(ua_list)
+        # HTTP请求头
+        ua_list = [
+            {"User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; 360SE)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; The World)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; TencentTraveler 4.0)"},
+            {"User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0)"}
+        ]
+        # 随机选一个
+        headers = random.choice(ua_list)
 
-        headers = {"User-Agent": "User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"}
         # 创建请求对象
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
-        data = urllib.request.urlopen(request).read().decode("utf-8")
+        data = urllib.request.urlopen(request).read()
         # print(type(data))  # str
         # print(data)
 
@@ -93,16 +97,15 @@ class Spider(object):
         # 创建请求对象
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
-        data = urllib.request.urlopen(request).read().decode("utf-8")
+        data = urllib.request.urlopen(request).read()
 
         # 解析HTML文档为HTML DOM(XML)模型
         html = etree.HTML(data)
         # xpath表达式解析XML,获取匹配到的图片链接列表
         link_list = html.xpath('//div/img[@class="BDE_Image"]/@src')
-        # link_list = content.xpath('//div[@class="post_bubble_middle"]')
         print(link_list)
 
-        # 循环列表
+        # 遍历列表
         for link in link_list:
             print(link)
             # 调用保存图片方法
@@ -113,7 +116,6 @@ class Spider(object):
         下载图片
         :return:
         """
-
         # http请求头
         headers = {"User-Agent": "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11"}
         # 创建请求对象
@@ -124,10 +126,9 @@ class Spider(object):
         filename = url[-10:]
         # 保存到本地
         print("正在下载图片 %s" % filename)
-        with open(filename, "wb") as f:
-        # f = open("D://filename", "wb")
+        # with open()会自动调用close()方法
+        with open('C://Users/Public/Pictures/tieba/' + filename, 'wb') as f:
             f.write(image)
-        # f.close()
 
 
 if __name__ == "__main__":
@@ -136,5 +137,5 @@ if __name__ == "__main__":
     begin = int(input("输入起始页: "))
     end = int(input("输入结束页: "))
 
-    s = Spider()
+    s = TiebaSpider()
     s.getURL(name, begin, end)
