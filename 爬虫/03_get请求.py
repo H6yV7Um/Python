@@ -191,8 +191,9 @@ print(fullurl)
 request = urllib.request.Request(fullurl, headers=headers)
 # 发送请求
 response = urllib.request.urlopen(request)
+print(type(response.read()))  # <class 'bytes'>
 # 输出
-print("data: %s" + response.read().decode("utf-8"))
+print("data: %s" % response.read().decode("utf-8"))
 print("info: %s" % response.info())
-print("code: %s" % response.getcode())
-print("url: %s" % response.geturl())
+print("code: %s" % response.getcode())  # 200
+print("url: %s" % response.geturl())  # http://www.baidu.com/s?wd=%E7%BE%8E%E5%A5%B3

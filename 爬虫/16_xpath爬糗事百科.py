@@ -17,7 +17,7 @@ class Qiushibaike(object):
 
         # 糗事百科URL
         url = "https://www.qiushibaike.com/8hr/page/"
-        # 循环爬起页面
+        # 循环爬取页面
         for page in range(begin, end+1):
             # 完整URL
             full_url = url + str(page)
@@ -73,10 +73,11 @@ class Qiushibaike(object):
                 "vote": vote,
                 "comments": comments
             }
-            # print(type(items))
-            # 写入本地文件
-            with open("C://Users/Public/Downloads/qiubai.json", "a") as f:
-                f.write(json.dumps(items).encode("utf-8", "ignore") + "\n")
+            # 将Python对象序列化成Json字符串
+            obj = json.dumps(items, ensure_ascii=False)
+        # 写入本地文件
+        with open("C://Users/Public/Downloads/qiubai.json", "a") as f:
+            f.write(obj + "\n")
 
 
 if __name__ == "__main__":
