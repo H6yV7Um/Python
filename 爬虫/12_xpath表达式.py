@@ -1,5 +1,6 @@
 """
 xpath使用路径表达式获取xml文档中的元素和属性
+xpath函数: http://www.w3school.com.cn/xpath/xpath_functions.asp
 
 节点:
 / 	从根节点选取
@@ -40,7 +41,6 @@ node(): 匹配任何类型的节点
 
 from lxml import etree
 
-
 """
 etree读取字符串
 备注: python的3引号可用于表示多行字符串或者函数下方的注释
@@ -67,7 +67,9 @@ res_list = html.xpath('//li')
 for res in res_list:
     print(type(res))  # <class 'lxml.etree._Element'>
     res = etree.tostring(res).decode("utf-8")
-    print(res)  # <a href="link1.html">first item</a>
+    print(res)  # <li class="item-0"><a href="link1.html">first item</a></li>
+
+print("=" * 50)
 
 """
 etree读取文件
@@ -82,9 +84,11 @@ res_list = html.xpath('//li')
 print(type(res_list))  # <class 'list'>
 for res in res_list:
     print(type(res))  # <class 'lxml.etree._Element'>
+    print(res.text)
     res = etree.tostring(res).decode("utf-8")
     print(type(res))  # <class 'str'>
     print(res)  # <li class="item-0"><a href="link1.html">first item</a></li>
+print("=" * 50)
 
 # 获取<li>标签的所有class属性
 res_list = html.xpath('//li/@class')
@@ -94,6 +98,7 @@ for res in res_list:
     # res = etree.tostring(res).decode("utf-8")
     # TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized
     print(res)  # item-0
+print("=" * 50)
 
 # 获取<li>标签下href为link1.html的<a>标签
 res_list = html.xpath('//li/a[@href="link1.html"]')
@@ -101,6 +106,7 @@ for res in res_list:
     print(type(res))  # <class 'lxml.etree._Element'>
     res = etree.tostring(res).decode("utf-8")
     print(res)  # <a href="link1.html">first item</a>
+print("=" * 50)
 
 # 获取<li>标签下的所有<span>标签
 res_list = html.xpath('//li//span')
@@ -108,18 +114,7 @@ for res in res_list:
     print(type(res))  # <class 'lxml.etree._Element'>
     res = etree.tostring(res).decode("utf-8")
     print(res)  # <span class="bold">third item</span>
-
-# 获取<li>标签下的<a>标签里的所有class属性
-res_list = html.xpath('//li/a//@class')
-for res in res_list:
-    print(type(res))  # <class 'lxml.etree._ElementUnicodeResult'>
-    print(res)  # bold
-
-# 获取最后一个<li>的<a>的href属性
-res_list = html.xpath('//li[last()]/a/@href')
-for res in res_list:
-    print(type(res))  # <class 'lxml.etree._ElementUnicodeResult'>
-    print(res)  # link5.html
+print("=" * 50)
 
 # 获取倒数第二个元素的内容
 res_list = html.xpath('//*[last()-1]')
@@ -128,9 +123,27 @@ for res in res_list:
     print(res.text)  # <li class="item-1"><a href="link4.html">fourth item</a></li>
     res = etree.tostring(res).decode("utf-8")
     print(res)  # <li class="item-1"><a href="link4.html">fourth item</a></li>
+print("=" * 50)
 
 # 获取class值为bold的标签名称
 res_list = html.xpath('//*[@class="bold"]')
 for res in res_list:
     print(type(res))  # <class 'lxml.etree._Element'>
+    print(res.text)  # third item
     print(res.tag)  # span
+    res = etree.tostring(res).decode("utf-8")
+    print(res)
+print("=" * 50)
+
+# 获取<li>标签下的<a>标签里的所有class属性
+res_list = html.xpath('//li/a//@class')
+for res in res_list:
+    print(type(res))  # <class 'lxml.etree._ElementUnicodeResult'>
+    print(res)  # bold
+print("=" * 50)
+
+# 获取最后一个<li>的<a>的href属性
+res_list = html.xpath('//li[last()]/a/@href')
+for res in res_list:
+    print(type(res))  # <class 'lxml.etree._ElementUnicodeResult'>
+    print(res)  # link5.html

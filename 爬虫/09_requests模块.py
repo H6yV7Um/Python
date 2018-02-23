@@ -48,7 +48,7 @@ def get():
     #     'X-Powered-By': 'HPHP'
     # }
     # 查看响应头部字符编码
-    print(response.status_code)  # utf-8
+    print(response.encoding)  # utf-8
     # 查看响应吗
     print(response.status_code)  # 200
     # 使用response.text时,Requests会基于HTTP响应的文本编码自动解码响应内容,大多数Unicode字符集都能被无缝解码
@@ -138,7 +138,7 @@ Cookie和Session
 """
 def cookie():
     # 请求地址
-    url = "https://www.zhihu.com/"
+    url = "https://www.baidu.com/"
     # 发送请求
     response = requests.get(url)
     # 返回CookieJar对象(如果一个响应中包含了cookie,可以利用cookies参数拿到)
@@ -154,9 +154,9 @@ def session():
     pass
 
 if __name__ == "__main__":
-    # get()
+    get()
     # post()
     # proxy01()
     # proxy02()
     # web()
-    cookie()
+    # cookie()
