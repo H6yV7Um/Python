@@ -21,14 +21,19 @@ items ={}
 for node in node_list:
     # xpath返回的列表，这个列表就这一个参数，用索引方式取出来，用户名
     username = node.xpath('./div/a/@title')[0]
+    print(username)
     # 图片连接
     image = node.xpath('.//div[@class="thumb"]//@src')#[0]
+    print(image)
     # 取出标签下的内容,段子内容
     content = node.xpath('.//div[@class="content"]/span')[0].text
+    print(content)
     # 取出标签里包含的内容，点赞
     zan = node.xpath('.//i')[0].text
+    print(zan)
     # 评论
     comments = node.xpath('.//i')[1].text
+    print(comments)
 
     items = {
         "username" : username,

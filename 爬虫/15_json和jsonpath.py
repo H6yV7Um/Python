@@ -30,7 +30,7 @@ import chardet
 import requests
 
 """
-json.dumps(): 将Python对象序列化成Json格式的字符串(Serialize obj to a JSON formatted str)
+json.dumps(obj): 将Python对象序列化成Json格式的字符串(Serialize obj to a JSON formatted str)
 序列化: 把变量从内存中变成可存储或传输的过程,延长生命周期
 注意: json.dumps()序列化默认使用ascii编码,处理中文时要添加参数ensure_ascii=False禁用ascii编码,按utf-8编码
 chardet.detect(byte_str)可以测试网页编码,参数类型必须是bytes or bytearray
