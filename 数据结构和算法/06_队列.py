@@ -24,7 +24,7 @@ class Queue(object):
 
     # 进队列
     def inqueue(self, item):
-        # 1、尾部插入(入队操作多选这个,复杂度低)
+        # 1、尾部插入(入队操作多就选这个,复杂度低)
         self.__items.append(item)
 
         # 2、头部插入
@@ -35,7 +35,7 @@ class Queue(object):
         # 1、头部删除
         return self.__items.pop(0)
 
-        # 2、尾部删除(出队操作多选这个,复杂度低)
+        # 2、尾部删除(出队操作多就选这个,复杂度低)
         # return self.__items.pop()
 
     # 返回队列大小

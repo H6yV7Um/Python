@@ -70,7 +70,7 @@ lock = Lock()
 # t2.start()
 
 """
-3、queue模块可以实现多线程之间的通信
+3、queue可以实现多线程之间的通信(数据交换)
 Producer/Consumer模式: 通过一个容器(阻塞队列)解决生产者和消费者的强耦合问题,生产者直接将数据扔给阻塞队列,
                       消费者直接从阻塞队列取数据,就相当于一个缓冲区,给producer/consumer解耦
 创建队列: queue = Queue()

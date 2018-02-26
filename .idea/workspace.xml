@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/qmtv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/爬虫/17_多线程爬虫案例1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py" afterPath="$PROJECT_DIR$/爬虫/16_xpath爬糗百数据.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/12_xpath表达式.py" afterPath="$PROJECT_DIR$/爬虫/12_xpath表达式.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/15_json和jsonpath.py" afterPath="$PROJECT_DIR$/爬虫/15_json和jsonpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py" afterPath="$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/test.py" afterPath="$PROJECT_DIR$/爬虫/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构和算法/06_队列.py" afterPath="$PROJECT_DIR$/数据结构和算法/06_队列.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬虫/04_贴吧爬虫.py" afterPath="$PROJECT_DIR$/爬虫/04_贴吧爬虫.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/进程和线程/02_线程.py" afterPath="$PROJECT_DIR$/进程和线程/02_线程.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/面向对象/08_异常.py" afterPath="$PROJECT_DIR$/面向对象/08_异常.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,21 +22,65 @@
       <file leaf-file-name="12_xpath表达式.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/12_xpath表达式.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2150">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="-775">
+              <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16_xpath爬糗事百科.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py">
+      <file leaf-file-name="16_xpath爬糗百数据.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/16_xpath爬糗百数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="211">
+              <caret line="88" column="92" lean-forward="true" selection-start-line="88" selection-start-column="92" selection-end-line="88" selection-end-column="92" />
               <folding>
                 <element signature="e#271#286#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_贴吧爬虫.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/04_贴吧爬虫.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+              <folding>
+                <element signature="e#54#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_多线程爬虫案例1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/17_多线程爬虫案例1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="e#167#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_异常.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面向对象/08_异常.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,53 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15_json和jsonpath.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="15_json和jsonpath.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/15_json和jsonpath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1996407228/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="2016" column="8" lean-forward="false" selection-start-line="2016" selection-start-column="8" selection-end-line="2016" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#46#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/json/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_bootlocale.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/_bootlocale.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,15 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>break</find>
-      <find>向上取整</find>
-      <find>while</find>
-      <find>return</find>
-      <find>randint</find>
-      <find>模块</find>
-      <find>if __name</find>
-      <find>random</find>
-      <find>file</find>
       <find>。</find>
       <find>：</find>
       <find>，</find>
@@ -145,6 +138,15 @@
       <find>ignore</find>
       <find>dumps()</find>
       <find>open</find>
+      <find>队列</find>
+      <find>继承</find>
+      <find>thread</find>
+      <find>time</find>
+      <find>lock</find>
+      <find>get</find>
+      <find>try</find>
+      <find>__</find>
+      <find>私有化</find>
     </findStrings>
     <replaceStrings>
       <replace>param</replace>
@@ -161,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构和算法/06_队列.py" />
-        <option value="$PROJECT_DIR$/card_manager/card_tools.py" />
-        <option value="$PROJECT_DIR$/数据结构和算法/10_二叉树.py" />
         <option value="$PROJECT_DIR$/进程和线程/pdb调试.py" />
         <option value="$PROJECT_DIR$/进程和线程/fork创建子进程.py" />
         <option value="$PROJECT_DIR$/进程和线程/multiprocessing.py" />
@@ -176,7 +175,6 @@
         <option value="$PROJECT_DIR$/进程和线程/05_多线程.py" />
         <option value="$PROJECT_DIR$/进程和线程/02_Process子类创建进程.py" />
         <option value="$PROJECT_DIR$/进程和线程/01_进程.py" />
-        <option value="$PROJECT_DIR$/进程和线程/02_线程.py" />
         <option value="$PROJECT_DIR$/爬虫/__init__.py" />
         <option value="$PROJECT_DIR$/爬虫/01_了解爬虫.py" />
         <option value="$PROJECT_DIR$/爬虫/02_urllib2.py" />
@@ -186,7 +184,6 @@
         <option value="$PROJECT_DIR$/爬虫/02_urllib2库.py" />
         <option value="$PROJECT_DIR$/爬虫/04_贴吧.py" />
         <option value="$PROJECT_DIR$/爬虫/01_爬虫简介.py" />
-        <option value="$PROJECT_DIR$/爬虫/04_贴吧爬虫.py" />
         <option value="$PROJECT_DIR$/爬虫/02_urllib库.py" />
         <option value="$PROJECT_DIR$/爬虫/06_ajax页面.py" />
         <option value="$PROJECT_DIR$/爬虫/05_post请求.py" />
@@ -212,6 +209,11 @@
         <option value="$PROJECT_DIR$/爬虫/12_xpath表达式.py" />
         <option value="$PROJECT_DIR$/爬虫/test.py" />
         <option value="$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py" />
+        <option value="$PROJECT_DIR$/爬虫/04_贴吧爬虫.py" />
+        <option value="$PROJECT_DIR$/数据结构和算法/06_队列.py" />
+        <option value="$PROJECT_DIR$/进程和线程/02_线程.py" />
+        <option value="$PROJECT_DIR$/面向对象/08_异常.py" />
+        <option value="$PROJECT_DIR$/爬虫/17_多线程爬虫案例1.py" />
       </list>
     </option>
   </component>
@@ -273,12 +275,22 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构和算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="进程和线程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="面向对象" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,7 +301,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="SearchEverywhereHistoryKey" value="队头删除元素&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -314,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16_xpath爬糗事百科">
+  <component name="RunManager" selected="Python.12_xpath表达式">
     <configuration name="02_urllib2库" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,7 +441,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\qmtv\PycharmProjects\Python\爬虫\16_xpath爬糗百数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -462,9 +474,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.16_xpath爬糗事百科" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12_xpath表达式" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12_xpath表达式" />
+        <item index="1" class="java.lang.String" itemvalue="Python.16_xpath爬糗事百科" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
         <item index="3" class="java.lang.String" itemvalue="Python.15_json和jsonpath" />
         <item index="4" class="java.lang.String" itemvalue="Python.03_get请求" />
       </list>
@@ -659,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519382346567</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1519471406043</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1519471406043</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -743,32 +762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/爬虫/0f06a5.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/0ed0e9.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/0e918f.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/0a4c0a.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fa604c.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fb056b.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fbda33.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fc2e4c.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fd3c74.jpg" />
-    <entry file="file://$PROJECT_DIR$/爬虫/fe7f9e.jpg" />
-    <entry file="file://$PROJECT_DIR$/基础部分/06_字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/02_urllib库.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/05_post请求.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-582">
@@ -920,14 +913,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/02_方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/09_requests模块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1038,9 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#67#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,14 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="2016" column="8" lean-forward="false" selection-start-line="2016" selection-start-column="8" selection-end-line="2016" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/12_xpath表达式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2150">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1068,21 +1043,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/16_xpath爬糗事百科.py">
+    <entry file="file://$PROJECT_DIR$/面向对象/04_继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="175">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/12_xpath表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/04_贴吧爬虫.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding>
+            <element signature="e#54#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法/07_双端队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="215" column="25" lean-forward="false" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进程和线程/01_进程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础部分/01_类型和变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法/06_队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进程和线程/02_线程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1625">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/15_json和jsonpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/02_方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法/05_栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/16_xpath爬糗百数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="88" column="92" lean-forward="true" selection-start-line="88" selection-start-column="92" selection-end-line="88" selection-end-column="92" />
           <folding>
             <element signature="e#271#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/15_json和jsonpath.py">
+    <entry file="file://$PROJECT_DIR$/面向对象/08_异常.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="275">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/17_多线程爬虫案例1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#167#201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,11 +1,10 @@
-import urllib.request
-import urllib.parse
-
 """
 需求: 爬取百度贴吧数据
-三步骤: 拼接url -- 获取html页面 -- 保存到本地 
+三步骤: 拼接url -- 获取html页面 -- 保存到本地
 """
 
+import urllib.request
+import urllib.parse
 
 def spider(url, begin, end):
     """
