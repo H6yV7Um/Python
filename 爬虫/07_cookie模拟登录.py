@@ -58,7 +58,7 @@ opener = urllib.request.build_opener(cookie_handler)
 # 访问页面
 response = opener.open("http://www.baidu.com")
 # 输出
-print(response.read().decode("utf-8"))
+print(response.read().decode("utf-8", "ignore"))
 
 
 

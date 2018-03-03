@@ -1,0 +1,8 @@
+# 左侧部分
+//div[@ui-view="explorer"]
+# 脚本内容
+//div[@class="split-pane2"]
+# 任务名称
+//span[@class="object-icon object-icon-2-10"]/@title
+# 脚本内容
+//div[@class="code-container"]/textarea[@id="code"]
