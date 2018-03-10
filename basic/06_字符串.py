@@ -21,14 +21,14 @@ print(str1.index("py"))  # index(): 求索引
 print(str1.find("abc"))  # find(): 与index类似,但是子字符串不存在的话不会报错,而是返回-1
 
 # 5、判断操作
-print(str1.isspace())  # isspace(): 判断空白字符(包括空格、\t、\r、\n等)
-print(str1.isdecimal())  # isdecimal(): 判断是否是数字
-print(str1.startswith("he"))  # startswith(): 开头
-print(str1.endswith("va"))  # endswith(): 结尾
+print(str1.isspace())  # isspace(): 判断空白字符(包括空格、\t、\r、\n等)   False
+print(str1.isdecimal())  # isdecimal(): 判断是否是数字   False
+print(str1.startswith("he"))  # startswith(): 开头   True
+print(str1.endswith("va"))  # endswith(): 结尾   True
 
 # 6、替换操作
 print(str1.replace("java", "php"))
-print(str1)  # 注意: replace()操作会返回新的字符串结果,而不会改变原来的字符串
+print(str1)  # 注意: replace()操作会返回新的字符串结果,而不改变原来的字符串
 
 # 7、文本对齐
 poem = ["\t\n登鹳雀楼",

@@ -40,9 +40,12 @@ def dumps():
     list = [1, 2, 3, 4]
     dict = {"city": "上海", "name": "grubby"}
     print(json.dumps(tuple))  # [1, 2, 3, 4]
+    print(type(json.dumps(tuple)))  # <class 'str'>
     print(json.dumps(list))  # [1, 2, 3, 4]
+    print(type(json.dumps(list)))  # <class 'str'>
 
     print(json.dumps(dict))  # {"city": "\u4e0a\u6d77", "name": "grubby"}
+    print(type(json.dumps(dict)))  # <class 'str'>
     # 将str编码成bytes
     res = json.dumps(dict).encode('utf-8')
     print(type(res))  # <class 'bytes'>
@@ -58,6 +61,7 @@ def dumps():
 """
 json.loads(): 将包含Json文档的字符串实例反序列化成Python对象
 (Deserialize s (a str instance containing a JSON document) to a Python object)
+注意: a str是一个整块,不能是多个小的块(loads/load does not decode multiple json object)
 """
 def loads():
     list_str = '[1, 2, 3, 4]'
@@ -124,5 +128,5 @@ if __name__ == "__main__":
     # dumps()
     # loads()
     # dump()
-    # load()
-    lagou()
+    load()
+    # lagou()

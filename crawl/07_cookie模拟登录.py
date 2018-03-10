@@ -18,7 +18,7 @@ cookie_handler = urllib.request.HTTPCookieProcessor(cookieJar)
 # 创建opener
 opener = urllib.request.build_opener(cookie_handler)
 # 以get方式访问页面,会自动将cookie保存到cookieJar
-response = opener.open("http://www.baidu.com")
+res1 = opener.open("http://www.baidu.com")
 # 输出页面
 #print(response.read().decode("utf-8"))
 # 从cookieJar获取cookie
@@ -40,7 +40,7 @@ cookie_handler = urllib.request.HTTPCookieProcessor(cookieJar)
 # 创建opener
 opener = urllib.request.build_opener(cookie_handler)
 # 访问页面,会自动将cookie保存到cookieJar
-response = opener.open("http://www.baidu.com")
+res2 = opener.open("http://www.baidu.com")
 # 保存cookie到本地
 cookieJar.save()
 
@@ -56,9 +56,9 @@ cookie_handler = urllib.request.HTTPCookieProcessor(cookieJar)
 # 创建opener
 opener = urllib.request.build_opener(cookie_handler)
 # 访问页面
-response = opener.open("http://www.baidu.com")
+res3 = opener.open("http://www.baidu.com")
 # 输出
-print(response.read().decode("utf-8", "ignore"))
+print(res3.read().decode("utf-8", "ignore"))
 
 
 
