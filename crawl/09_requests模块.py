@@ -134,7 +134,7 @@ def web():
     print(response.text)
 
 """
-Cookie和Session
+cookie
 """
 def cookie():
     # 请求地址
@@ -150,8 +150,26 @@ def cookie():
     print(type(cookiedict))  # <class 'dict'>
     print(cookiedict)  # {'BDORZ': '27315'}
 
+"""
+session
+注意点: 网站的登录页面要找对,然后可以通过fiddler抓包获取登录时的webform表单数据
+"""
 def session():
-    pass
+    # 创建session对象,可以保存cookie值
+    session = requests.session()
+    # 请求头
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"}
+    # 登录页面
+    url_login = ""
+    # 登录后的其它页面
+    url = ""
+    # 需要登录的用户名和密码
+    data = {}
+    # 发送附带用户信息的请求(此时session已包含登录后的co                                                                                                                                                                                                         okie值)
+    session.post(url_login, data=data, headers=headers)
+    # 访问登录后的其它页面
+    response = session.get(url, headers=headers)
+    print(response.text)
 
 if __name__ == "__main__":
     get()
