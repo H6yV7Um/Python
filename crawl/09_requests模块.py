@@ -159,13 +159,13 @@ def session():
     session = requests.session()
     # 请求头
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv2.0.1) Gecko/20100101 Firefox/4.0.1"}
-    # 登录页面
-    url_login = ""
+    # 登录页面(通常带有login/sign字眼)
+    url_login = "https://signin.aliyun.com/1065151969971491/login.htm"
     # 登录后的其它页面
-    url = ""
+    url = "https://ide-cn-shanghai.data.aliyun.com/web/folder/listObject?keyword=&objectId=-1&projectId=29820&reRender=true&tenantId=171224272675329&type=1"
     # 需要登录的用户名和密码
-    data = {}
-    # 发送附带用户信息的请求(此时session已包含登录后的co                                                                                                                                                                                                         okie值)
+    data = {"user_principal_name": "chenqian@1065151969971491", "password_ims": "Cq111111"}
+    # 发送附带用户信息的请求(此时session已包含登录后的cookie值)
     session.post(url_login, data=data, headers=headers)
     # 访问登录后的其它页面
     response = session.get(url, headers=headers)
