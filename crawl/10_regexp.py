@@ -28,7 +28,7 @@ print(m.group(1))  # Hello
 print(m.group(2))  # World
 # print(m.group(3))  # IndexError: no such group
 
-# span()方法返回符合规则的第n个串的索引
+# span()方法返回符合规则的第n个串的索引区间
 print(m.span())  # (0, 11)
 print(m.span(1))  # (0, 5)
 print(m.span(2))  # (6, 11)

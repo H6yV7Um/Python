@@ -172,10 +172,10 @@ def session():
     print(response.text)
 
 if __name__ == "__main__":
-    # get()
+    get()
     # post()
     # proxy01()
     # proxy02()
     # web()
     # cookie()
-    session()
+    # session()

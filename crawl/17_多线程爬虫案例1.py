@@ -8,7 +8,7 @@ ParseThread: 解析线程
 queue部分:
 1、Queue(maxsize): 创建一个队列并指定大小(Create a queue object with a given maximum size)
 2、queue.put(self, item, block=True, timeout=None): 往队列中添加一个元素(Put an item into the queue)
-3、queue.get(self, block=True, timeout=None): 从队列中移出一个元素(Remove and return an item from the queue)
+3、queue.get(self, block=True, timeout=None): 从队列中移除并返回一个元素(Remove and return an item from the queue)
   block=True(默认): 如果对列为空,线程不会结束而是进入阻塞状态,直到队列有新的数据
   block=False: 如果队列为空,就弹出queue.Empty异常
 
