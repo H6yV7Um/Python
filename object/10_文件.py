@@ -8,55 +8,8 @@ tell(): 获取当前文件位置
 seek(offset, from): 调整当前文件位置
     offset: 偏移量
     from: 方向 0表示文件开头 1表示当前位置 2表示文件结尾(python3目前只能写0！)
-"""
 
-import os
-
-"""
-文件读写
-"""
-
-# # 1、打开文件
-# file1 = open("E://aaa.txt", encoding='utf-8')
-# file2 = open("E://bbb.txt", "w")
-#
-# # 2、读写文件
-# while True:
-#
-#     # 按行读取
-#     # text = file1.readline()
-#     text = file1.readlines()
-#     print(type(text))
-#
-#     # 判断是否到末尾
-#     if not text:
-#         break
-#
-#     # 写入新文件
-#     # file2.write(text)
-#     for t in text:
-#         file2.write(t)
-#
-# # 3、关闭文件
-# file1.close()
-# file2.close()
-
-"""
-文件定位
-"""
-
-# file = open("E://aaa.txt", encoding='utf-8')
-# str1 = file.read(5)
-# print("读取的字符串是 %s" % str1)
-# position = file.tell()
-# print("当前文件位置是 %s" % position)
-# file.seek(3, 0)
-# str2 = file.read()
-# print("读取的字符串是 %s" % str2)
-# file.close()
-
-"""
-文件相关操作: 导入os模块
+文件操作: 导入os模块
 os.rename(path1, path2): 重命名
 os.remove(): 刪除文件
 os.mkdir(): 创建文件夹
@@ -68,40 +21,65 @@ os.path.isdir(): 判断是否是文件夹
 os.path.getsize(filename): 获取文件大小,求文件夹大小的话需要递归遍历所有文件
 """
 
-# os.rename("E://bbb.txt", "E://hehe.txt")
-# os.remove("E://hehe.txt")
-# os.mkdir("E://test")
-# os.getcwd()
-# list = os.listdir("E://")
-# print(list)
-# os.rmdir("E://test")
+import os
 
+# 文件读写
+def file01():
+    # 1、打开文件
+    file1 = open("E://aaa.txt", encoding='utf-8')
+    file2 = open("E://bbb.txt", "w")
+    # 2、读写文件
+    while True:
+        # 按行读取
+        # text = file1.readline()
+        text = file1.readlines()
+        print(type(text))
+        # 判断是否到末尾
+        if not text:
+            break
+        # 写入新文件
+        # file2.write(text)
+        for t in text:
+            file2.write(t)
+    # 3、关闭文件
+    file1.close()
+    file2.close()
 
-# 批量修改文件名
-# dir_name = "E://test/"
-# file_list = os.listdir(dir_name)
-# for file in file_list:
-#     os.rename(dir_name + file, dir_name + 'python-' + file)
+# 文件定位
+def file02():
+    file = open("E://aaa.txt", encoding='utf-8')
+    str1 = file.read(5)
+    print("读取的字符串是 %s" % str1)
+    position = file.tell()
+    print("当前文件位置是 %s" % position)
+    file.seek(3, 0)
+    str2 = file.read()
+    print("读取的字符串是 %s" % str2)
+    file.close()
 
-# 删除空文件
-# dir_name = "D://"
-# file_list = os.listdir(dir_name)
-# print(file_list)
-# for file in file_list:
-#     print(file)
-#     if os.path.getsize(dir_name + file) == 0:
-#         os.remove(dir_name + file)
-#
-# print(os.path.getsize("E://aaa.txt"))
-
-# 遍历文件夹获取指定后缀名文件
-dir_name = "E://eclipse/"
+# 递归文件夹操作指定后缀名的文件
+dir_name = "D://学习资料/python数据分析与机器学习实战/python数据分析与机器学习实战/"
 def digui(path, suffix):
     list = os.listdir(path)
-    for l in list:
-        if os.path.isfile(path + l):
-            if l.endswith(suffix):
-                print(path+l)
+    for file in list:
+        if os.path.isfile(path + file):
+            if file.endswith(suffix):
+                file_new = file.replace("龙天论坛", "")
+                os.rename(path + file, path + file_new)
         else:
-            digui(path + l + "/", suffix)
-digui(dir_name, ".ini")
+            digui(path + file + "/", suffix)
+
+# 递归文件夹删除小于200k的文件
+def digui02(path):
+    list = os.listdir(path)
+    for file in list:
+        if os.path.isfile(path+file):
+            if os.path.getsize(path+file)<1024*200:
+                os.remove(path+file)
+        else:
+            digui02(path+file+"/")
+
+
+if __name__ == "__main__":
+    digui(dir_name, ".flv")
+    # digui02(dir_name)

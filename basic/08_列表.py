@@ -94,3 +94,10 @@ print(a)
 b = [[a[x], a[x + 1], a[x + 2]] for x in range(0, 98, 3)]
 b.append([100])
 print(b)
+
+# 快速生成一个列表
+list1 = [i for i in range(1, 10)]
+print(list1)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list2 = list(range(1, 10))
+print(list2)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
