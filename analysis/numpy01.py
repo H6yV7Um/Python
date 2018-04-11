@@ -24,12 +24,14 @@ dtype属性: 数组中的数据类型
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 """
 ndarray随机创建: 通过随机抽样numpy.random生成随机数据
+rand(): 创建一个3*4的随机浮点型二维数组(二维数组里有3个一维数组,每个一维数组有4个元素),rand固定区间0.0~1.0
+uniform(): 创建一个3*4的随机浮点型二维数组,uniform指定区间1.0~5.0
+randint(): 创建一个3*4*5的随机整型三维数组,randint指定区间1~10
+randn(): 创建一个符合正态分布的随机数抽样数组,数据个数是10000
 """
 
-# 创建一个3*4(3行4列)的随机浮点型二维数组(二维数组里有3个一维数组,每个一维数组有4个元素),rand固定区间0.0~1.0
 def rand():
     arr = np.random.rand(3, 4)
     print(arr)
@@ -38,7 +40,6 @@ def rand():
     print(arr.shape)  # (3, 4)
     print(arr.dtype)  # float64
 
-# 创建一个3*4(3行4列)的随机浮点型二维数组,uniform指定区间1.0~5.0
 def uniform():
     arr = np.random.uniform(1, 5, (3, 4))
     print(arr)
@@ -47,7 +48,6 @@ def uniform():
     print(arr.shape)  # (3, 4)
     print(arr.dtype)  # float64
 
-# 创建一个3*4*5(3个4行5列)的随机整型三维数组,randint指定区间1~10
 def randint():
     arr = np.random.randint(1, 10, (3, 4, 5))
     print(arr)
@@ -56,7 +56,6 @@ def randint():
     print(arr.shape)  # (3, 4, 5)
     print(arr.dtype)  # int32
 
-# 创建一个符合正态分布的随机数抽样数组,数据个数是10000
 def randn():
     arr = np.random.randn(10000)
     print(arr)
@@ -69,15 +68,21 @@ def randn():
 
 """
 ndarray序列创建: 
+np.array(): 将list转换成数组
+np.zeros(): 创建一个3*4的二维数组,每个元素都是float64类型的0
+np.ones(): 创建一个3*4的二维数组,每个元素都是float64类型的1
+np.empty(): 创建一个3*4的二维数组,每个元素都是内存里的随机值
+np.arange(): 创建一个区间为0~n的一维数组,类似python的range()
+reshape(): 重组原数组并调整形状(维度)
+shuffle(): 打乱数组(洗牌)
 """
 
-# 将list序列转换成数组
 def array():
     l1 = range(10)
     l2 = list(range(10))
     print(l1)  # range(0, 10)
     print(l2)  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    # np.array(collection)可以将序列化的数据转换成数组;collection包含序列型对象(list)和嵌套序列对象(list of list)
+    # np.array(collection)可以list转换成数组;collection包含序列型对象(list)和嵌套序列对象(list of list)
     print(np.array(l1))  # [0 1 2 3 4 5 6 7 8 9]
     print(np.array(l2))  # [0 1 2 3 4 5 6 7 8 9]
     arr = np.array([l1, l2])
@@ -86,15 +91,69 @@ def array():
     print(arr.shape)  # (2, 10)
     print(arr.dtype)  # int32
 
-# 创建一个3*4的二维数组,每个元素都是float64类型的0
 def zeros():
     arr = np.zeros((3, 4))
     print(arr)
 
+def ones():
+    arr = np.ones((3, 4))
+    print(arr)
+
+def empty():
+    arr = np.empty((3, 4))
+    print(arr)
+
+def arange():
+    arr = np.arange(15)
+    print(arr)  # [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14]
+
+def reshape():
+    arr = np.arange(15)
+    # 将15个元素的一维数组重组成二维数组,二维数组有3个一维数组,每个一维数组5个元素
+    arr1 = arr.reshape(3, 5)
+    # 将15个元素的一维数组重组成三维数组,三维数组有1个二维数组,每个二维数组有3个一维数组,每个一维数组5个元素
+    arr2 = arr.reshape(1, 3, 5)
+    print(arr1)
+    print(arr2)
+
+def shuffle():
+    arr = np.arange(15)
+    print(arr)  # [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14]
+    # 注意: 是给原数组洗牌,并没有return新数组
+    np.random.shuffle(arr)
+    print(arr)  # [ 7  2  0  9 10 14  8  5 12 11 13  3  1  6  4]
+    arr1 = arr.reshape(3, 5)
+    print(arr1)
 
 """
-ndarray数据类型: 
+ndarray的数据类型: 
+dtype: 指定/查看数组的数据类型,类型名+位数: float64, int32
+astype: 转换数组的数据类型
 """
+
+def dtype():
+    arr = np.ones((3, 4))
+    print(arr)
+    print(arr.dtype)  # float64
+    arr1 = np.ones((3, 4), dtype=int)
+    print(arr1)
+    print(arr1.dtype)  # int32
+
+def astype():
+    arr = np.ones((3, 4))
+    print(arr)
+    print(arr.dtype)  # float64
+    arr1 = arr.astype(int)
+    print(arr1)
+    print(arr1.dtype)  # int32
+
+    # 转换float64为int32时,是取整不是四舍五入,比如5.69063769-->5  -3.80322353-->-3
+    arr2 = np.random.uniform(-10, 10, (3, 4))
+    print(arr2)
+    print(arr2.dtype)
+    arr3 = arr2.astype(int)
+    print(arr3)
+    print(arr3.dtype)
 
 if __name__ == "__main__":
     # rand()
@@ -102,4 +161,11 @@ if __name__ == "__main__":
     # randint()
     # randn()
     # array()
-    zeros()
+    # zeros()
+    # ones()
+    # empty()
+    # arange()
+    # reshape()
+    # shuffle()
+    # dtype()
+    astype()
