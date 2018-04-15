@@ -19,4 +19,9 @@ conda install numpy: 安装numpy库
 anaconda search -t conda jsonpath: 寻找安装jsonpath库的资源
 anaconda show timbr-io/jsonpath-rw(找到的资源,比如win-64下的某个库): 显示安装该资源的命令
 conda install --channel https://conda.anaconda.org/timbr-io jsonpath-rw: 安装命令
+
+Numpy: 科学计算库(矩阵)
+Pandas: 数据分析处理库(代码库)
+Matplotlib: 数据可视化库(画图)
+scikit-learn: 机器学习库(算法库)
 """

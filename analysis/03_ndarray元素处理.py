@@ -46,7 +46,7 @@ np.max(), np.min(): 所有元素的最大值/最小值,参数是 number 或 arra
 np.std(), np.var(): 所有元素的标准差/方差,参数是 number 或 array;  用来衡量数据和期望值的偏移量
 np.argmax(), np.argmin(): 最大/小值的索引值,参数是 number 或 array
 np.cumsum(), np.cumprod(): 返回一个一维数组,每个元素都是之前所有元素的累加和/累乘积,参数是 number 或 array
-注意: 统计多维数组时默认统计全部维度,axis=0按列统计,axis=1按行统计
+注意: 统计多维数组时默认统计全部维度,默认是axis=0(按列),axis=1(按行)
 """
 
 def test02():
@@ -100,7 +100,7 @@ def test03():
 
 """
 元素去重排序函数: 
-np.unique(): 去除重复值并排序返回新的结果,类似Python的set
+np.unique(): 去除重复值并返回排序后的结果,类似Python的set
 """
 
 def test04():

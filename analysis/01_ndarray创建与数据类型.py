@@ -72,7 +72,7 @@ ndarray序列创建:
 np.array(): 将list转换成数组
 np.zeros(): 创建一个3*4的二维数组,每个元素都是float64类型的0
 np.ones(): 创建一个3*4的二维数组,每个元素都是float64类型的1
-np.empty(): 创建一个3*4的二维数组,每个元素都是内存里的随机值
+np.empty(): 创建一个3*4的二维数组,每个元素都是内存里的随机值(不常用)
 np.arange(): 创建一个区间为0~n的一维数组,类似python的range()
 reshape(): 重组原数组并调整形状(维度)
 shuffle(): 打乱数组(洗牌)
@@ -152,10 +152,11 @@ def astype():
     # 转换float64为int32时,是取整不是四舍五入,比如5.69063769-->5  -3.80322353-->-3
     arr2 = np.random.uniform(-10, 10, (3, 4))
     print(arr2)
-    print(arr2.dtype)
+    print(arr2.dtype)  # float64
     arr3 = arr2.astype(int)
     print(arr3)
-    print(arr3.dtype)
+    print(arr3.dtype)  # int32
+
 
 if __name__ == "__main__":
     # rand()
