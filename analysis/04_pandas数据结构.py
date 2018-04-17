@@ -16,11 +16,11 @@ import numpy as np
 import pandas as pd
 
 """
-创建series对象: series = pd.Series(list/dict)
+创建Series对象: ser = pd.Series(list/dict)
 """
 
 def series01():
-    # 通过list创建series
+    # 通过list创建series,不指定行索引,默认是自增长的int类型
     ser = pd.Series(range(10, 20))
     print(ser)
     # 0    10
@@ -34,14 +34,23 @@ def series01():
     # 8    18
     # 9    19
     # dtype: int64
-    print(type(ser))  # <class 'pandas.core.series.Series'>
 
     # 查看索引
     print(ser.index)  # RangeIndex(start=0, stop=10, step=1)
+
     # 查看数据
     print(ser.values)  # [10 11 12 13 14 15 16 17 18 19]
+
+    # 查看Series对象的元素的数据类型
+    print(ser.dtype)  # int64
+    print(ser.dtypes)  # int64
+
+    # 查看Series对象的数据类型
+    print(type(ser))  # <class 'pandas.core.series.Series'>
+
     # 根据索引获取值
     print(ser[2])  # 12
+
     # 默认查看series对象的前/后5条数据
     print(ser.head())
     print(ser.tail())
@@ -74,21 +83,39 @@ def series02():
 """
 
 def dataframe01():
-    # 通过ndarray创建dataframe
+    # 通过ndarray创建dataframe,不指定行/列索引,默认是自增长的int类型
     df = pd.DataFrame(np.random.rand(3, 4))
     print(df)
     #           0         1         2         3
     # 0  0.714400  0.028173  0.796146  0.246265
     # 1  0.655501  0.667714  0.201332  0.674610
     # 2  0.409520  0.800446  0.881828  0.512586
-    print(df.head(2))
-    #           0         1         2         3
-    # 0  0.714400  0.028173  0.796146  0.246265
-    # 1  0.655501  0.667714  0.201332  0.674610
+
+    # 查看索引
+    print(df.index)  # RangeIndex(start=0, stop=3, step=1)
+    print(df.columns)  # RangeIndex(start=0, stop=4, step=1)
+
+    # 查看数据
     print(df.values)
     # [[0.714400  0.028173  0.796146  0.246265]
     #  [0.655501  0.667714  0.201332  0.674610]
     #  [0.409520  0.800446  0.881828  0.512586]]
+
+    # 查看DataFrame对象的元素的数据类型
+    print(df.dtypes)
+    # 0    float64
+    # 1    float64
+    # 2    float64
+    # 3    float64
+    # dtype: object
+
+    # 查看DataFrame对象的数据类型
+    print(type(df))  # <class 'pandas.core.frame.DataFrame'>
+
+    print(df.head(2))
+    #           0         1         2         3
+    # 0  0.714400  0.028173  0.796146  0.246265
+    # 1  0.655501  0.667714  0.201332  0.674610
 
 def dataframe02():
     # 通过dict创建dataframe
@@ -115,7 +142,7 @@ def dataframe02():
     # 3      Java
     # Name: D, dtype: object
 
-    # 查找指定列数据的指定值
+    # 查找指定列数据的指定行
     print(df["D"][2])  # C++
 
     # 添加列

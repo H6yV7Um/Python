@@ -53,35 +53,57 @@ def test02():
     # 创建一个指定区间的整形二维数组
     arr = np.random.randint(1, 10, (3, 4))
     print(arr)
+    # [[7 2 7 1]
+    #  [1 9 1 6]
+    #  [7 8 7 6]]
+
     # 默认求全部元素平均值
-    print(np.mean(arr))
+    print(np.mean(arr))  # 5.166666666666667
+
     # 也可以求指定区间平均值
-    print(np.mean(arr[1][1:3]))
+    print(np.mean(arr[1][1:3]))  # 5.0
+
     # 默认求所有元素的和
-    print(np.sum(arr))
-    print("=" * 30)
+    print(np.sum(arr))  # 62
+
     # 按列/行求和
-    print(np.sum(arr, axis=0))
-    print(np.sum(arr, axis=1))
+    print(np.sum(arr, axis=0))  # [15 19 15 13]
+    print(np.sum(arr, axis=1))  # [17 17 28]
+
     # 默认求所有元素的最大值
-    print(np.max(arr))
+    print(np.max(arr))  # 9
+
     #  默认求所有元素的最小值
-    print(np.min(arr))
+    print(np.min(arr))  # 1
+
     # 标准差: 所有数据分别和平均数的差的和的平均数
-    print(np.std(arr))
+    print(np.std(arr))  # 2.8819360776317637
+
     # 方差: 所有数据分别和平均数的差的平方的和的平均数
-    print(np.var(arr))
+    print(np.var(arr))  # 8.305555555555555
+
     # 数组里最大值的下标值(如果有多个重复数据取第一个)
-    print(np.argmax(arr))
+    print(np.argmax(arr))  # 5
+
     # 数组里最小值的下标值
-    print(np.argmin(arr))
+    print(np.argmin(arr))  # 3
+
     # 返回一个一维数组,每个元素都是当前元素和前面所有元素的累加和
-    print(np.cumsum(arr))
+    print(np.cumsum(arr))  # [7 9 16 17 18 27 28 34 41 49 56 62]
     print(np.cumsum(arr).reshape(4, 3))
+    # [[ 7  9 16]
+    #  [17 18 27]
+    #  [28 34 41]
+    #  [49 56 62]]
+
     # 返回一个一维数组,每个元素都是当前元素和前面所有元素的累乘积
-    print(np.cumprod(arr))
+    print(np.cumprod(arr))  # [7 14 98 98 98 882 882 5292 37044 296352 2074464 12446784]
+
     # 按列计算
     print(np.cumprod(arr, axis=0))
+    # [[  7   2   7   1]
+    #  [  7  18   7   6]
+    #  [ 49 144  49  36]]
 
 
 """
@@ -100,7 +122,7 @@ def test03():
 
 """
 元素去重排序函数: 
-np.unique(): 去除重复值并返回排序后的结果,类似Python的set
+np.unique(array): 去除重复值并返回排序后的结果,类似Python的set
 """
 
 def test04():
@@ -111,6 +133,6 @@ def test04():
 
 if __name__ == "__main__": 
     # test01()
-    # test02()
+    test02()
     # test03()
-    test04()
+    # test04()
