@@ -22,7 +22,7 @@ def test01():
     #    20    14
     # dtype: int64
 
-    # 查看索引: levels表示两个层级中分别有那些标签,labels是每个位置分别是什么标签
+    # 查看索引: levels表示两个层级中分别有哪些标签,labels是每个位置分别是什么标签
     print(ser.index)
     # MultiIndex(levels=[['a', 'b', 'c'], [10, 20, 30]],
     #            labels=[[0, 0, 1, 2, 2], [0, 1, 2, 0, 1]])
@@ -81,7 +81,7 @@ def test01():
 
 """
 重构:
-unstack(): 将Series对象重构成DataFrame对象
+unstack(): 将具有多层索引的Series对象重构成DataFrame对象
 stack(): 将DataFrame对象重构成Series对象
 """
 

@@ -121,9 +121,9 @@ stu_list = [{"name": "grubby", "age": 18},
 print(stu_list)
 # stu_list.sort()  # TypeError: unorderable types: dict() < dict()因为列表里存的是字典数据,无法直接排序,可以指定key排序
 stu_list.sort(key=lambda x: x["name"])
-print(stu_list)
+print(stu_list)  # [{'name': 'fly', 'age': 20}, {'name': 'grubby', 'age': 18}, {'name': 'moon', 'age': 19}]
 stu_list.sort(key=lambda x: x["age"])
-print(stu_list)
+print(stu_list)  # [{'name': 'grubby', 'age': 18}, {'name': 'moon', 'age': 19}, {'name': 'fly', 'age': 20}]
 
 
 # 案例二: 将匿名函数作为函数的参数传入

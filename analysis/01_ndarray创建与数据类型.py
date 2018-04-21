@@ -26,9 +26,9 @@ import matplotlib.pyplot as plt
 
 """
 ndarray随机创建: 通过随机抽样numpy.random生成随机数据
-np.random.rand(): 创建一个3*4(二维数组里有3个一维数组,每个一维数组有4个元素)的随机浮点型二维数组,rand固定区间0.0~1.0
-np.random.uniform(): 创建一个3*4的随机浮点型二维数组,uniform指定区间1.0~5.0
-np.random.randint(): 创建一个3*4*5的随机整型三维数组,randint指定区间1~10
+np.random.rand(): 创建一个随机浮点型二维数组,rand固定区间0.0~1.0
+np.random.uniform(): 创建一随机浮点型二维数组,uniform指定区间1.0~5.0
+np.random.randint(): 创建一个随机整型三维数组,randint指定区间1~10
 np.random.randn(): 创建一个符合正态分布的随机数抽样数组,数据个数是10000
 """
 
@@ -70,9 +70,9 @@ def randn():
 """
 ndarray序列创建: 
 np.array(): 将list转换成数组
-np.zeros(): 创建一个3*4的二维数组,每个元素都是float64类型的0
-np.ones(): 创建一个3*4的二维数组,每个元素都是float64类型的1
-np.empty(): 创建一个3*4的二维数组,每个元素都是内存里的随机值(不常用)
+np.zeros(): 创建一个数组,每个元素都是float64类型的0
+np.ones(): 创建一个数组,每个元素都是float64类型的1
+np.empty(): 创建一个数组,每个元素都是内存里的随机值(不常用)
 np.arange(): 创建一个区间为0~n的一维数组,类似python的range()
 reshape(): 重组原数组并调整形状(维度)
 shuffle(): 打乱数组(洗牌)
@@ -162,7 +162,7 @@ if __name__ == "__main__":
     # rand()
     # uniform()
     # randint()
-    # randn()
+    randn()
     # array()
     # zeros()
     # ones()
@@ -171,4 +171,4 @@ if __name__ == "__main__":
     # reshape()
     # shuffle()
     # dtype()
-    astype()
+    # astype()

@@ -74,8 +74,8 @@ def series02():
     print(ser.name)  # None
     ser.name = "haha"
     print(ser.name)  # haha
-    print(ser.index.name)
-    ser.index.name = "xixi"  # None
+    print(ser.index.name)  # None
+    ser.index.name = "xixi"
     print(ser.index.name)  # xixi
 
 """

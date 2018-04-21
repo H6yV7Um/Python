@@ -8,6 +8,7 @@ Index,索引
 Int64Index,整数索引
 MultiIndex,层级索引
 DatetimeIndex,时间戳类型
+高级索引: 包括标签索引loc和位置索引iloc
 """
 
 import numpy as np
@@ -44,7 +45,7 @@ def index01():
     print(ser["c"])  # 12
 
     # 2、切片索引(连续索引): ser['label1': 'label3'],ser[2:4],
-    print(ser["b": "d"])  # 注意: 按索引名切片(标签索引)是会包含末尾位置的
+    print(ser["b": "d"])  # 注意: 标签索引是会包含末尾位置的
     # b    11
     # c    12
     # d    13

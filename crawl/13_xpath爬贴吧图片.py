@@ -31,7 +31,7 @@ class TiebaSpider(object):
         url = "https://tieba.baidu.com/f"
         # 对贴吧名称做URL转码
         kw = urllib.parse.urlencode({"kw": name})
-        # print(kw)
+        print(kw)
 
         # 遍历循环贴吧所有页面
         for page in range(begin, end + 1):
@@ -123,11 +123,11 @@ class TiebaSpider(object):
         # 发送请求,从服务器接收数据
         image = urllib.request.urlopen(request).read()
         # 给每个图片命名
-        filename = url[-10:]
+        filename = url[-9:]
         # 保存到本地
         print("正在下载图片 %s" % filename)
         # with open()会自动调用close()方法
-        with open('C://Users/Public/Pictures/tieba/' + filename, 'wb') as f:
+        with open('D://tieba/' + filename, 'wb') as f:
             f.write(image)
 
 

@@ -1,11 +1,12 @@
 # coding=utf-8
 import pandas as pd
 import matplotlib.pyplot as plt
-
-filename = "D://FoodFacts.csv"
+import zipfile
+import os
 
 # 手动实现分组功能
 def test01():
+    filename = "D://FoodFacts.csv"
     # 加载文件并删除nan值
     df = pd.read_csv(filename, usecols=["countries_en", "additives_n"], encoding="gbk").dropna()
     print(type(df))  # <class 'pandas.core.frame.DataFrame'>
@@ -40,23 +41,46 @@ def test01():
 
 # groupby实现
 def test02():
-    # 加载文件并删除nan值
-    df = pd.read_csv(filename, usecols=["countries_en", "additives_n"], encoding="gbk").dropna()
+    # zip压缩文件所在目录
+    data_path = "D://"
+    zipfile_path = "open-food-facts.zip"
+    fullzipfile = os.path.join(data_path, zipfile_path)
+    print(fullzipfile)  # D://open-food-facts.zip
+
+    # 打开zip压缩文件,读取文件信息
+    with zipfile.ZipFile(fullzipfile) as f:
+        # f.namelist()返回的是zip压缩文件里所有文件名的列表
+        csvfile = f.namelist()[0]
+        print(csvfile)  # FoodFacts.csv
+
+    # 获取csv文件全路径
+    csvfile_path = os.path.join(data_path, csvfile)
+    print(csvfile_path)  # D://FoodFacts.csv
+
+    # 解压zip压缩文件到指定path下
+    with zipfile.ZipFile(fullzipfile) as f:
+        f.extractall(path=data_path)
+
+    # 加载csv文件并删除nan值
+    df = pd.read_csv(csvfile_path, usecols=["countries_en", "additives_n"], encoding="gbk").dropna()
     print(type(df))  # <class 'pandas.core.frame.DataFrame'>
     print(df.head(10))
 
-    # 取出添加剂列的数据并按国家分组,返回groupby对象
-    groupby_obj = df["additives_n"].groupby(df["countries_en"])
-    print(groupby_obj)  # <pandas.core.groupby.SeriesGroupBy object at 0x00000176E3A2FE48>
-    print(type(groupby_obj))  # <class 'pandas.core.groupby.SeriesGroupBy'>
+    # 取出添加剂列的数据并按国家列分组,返回groupby对象
+    group = df["additives_n"].groupby(df["countries_en"])
+    print(group)  # <pandas.core.groupby.SeriesGroupBy object at 0x00000176E3A2FE48>
+    print(type(group))  # <class 'pandas.core.groupby.SeriesGroupBy'>
 
     # 对groupby对象做统计处理
-    data = groupby_obj.mean().sort_values(ascending=False)[:10]
+    data = group.mean().sort_values(ascending=False)[:10]
     data.index.name = "country"
+    print(type(data))  # <class 'pandas.core.series.Series'>
     print(data)
 
     # 画图
     data.plot.bar()
+
+    # 显示绘图结果
     plt.show()
 
 if __name__ == "__main__":
