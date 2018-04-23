@@ -78,11 +78,14 @@ def test():
     # 将字符串解析为HTML文档
     data = etree.HTML(text)
     print(type(data))  # <class 'lxml.etree._ElementTree'>
+
     # 将HTML文档序列化成字符串(etree可以自动修正html代码)
-    res = etree.tostring(data).decode("utf-8")
-    print(type(res))  # <class 'str'>
+    data_new = etree.tostring(data).decode("utf-8")
+    print(type(data_new))  # <class 'str'>
+
     # xpath表达式解析
     res_list = data.xpath('//li')
+
     # 遍历列表
     for res in res_list:
         print(type(res))  # <class 'lxml.etree._Element'>
@@ -109,9 +112,9 @@ def test01():
         print(res.text)
         print(res.tag)  # li
         # 将元素序列化成字符串
-        res = etree.tostring(res).decode("utf-8")
-        print(type(res))  # <class 'str'>
-        print(res)  # <li class="item-0"><a href="link1.html">first item</a></li>
+        res1 = etree.tostring(res).decode("utf-8")
+        print(type(res1))  # <class 'str'>
+        print(res1)  # <li class="item-0"><a href="link1.html">first item</a></li>
 
 def test02():
     """
@@ -190,8 +193,8 @@ def test08():
         print(res)  # link5.html
 
 if __name__ == "__main__":
-    # test()
-    test01()
+    test()
+    # test01()
     # test02()
     # test03()
     # test04()

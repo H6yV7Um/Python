@@ -1,7 +1,7 @@
 """
 文件读写: 一个函数(open),三个方法(read、write、close)
 open(): 默认r只读,w只写(有内容就覆盖),a追加;操作图片、视频等二进制文件: rb,wb,ab
-read(size): 不写size一次读取所有行,执行完指针会移动到文件末尾
+read(size): 不写size就一次读取所有行,返回str,执行完指针会移动到文件末尾
 readline(): 每次读取一行,返回str,执行完指针会移到下一行
 readlines(): 一次读取所有行,返回list,每行都是一个元素
 tell(): 获取当前文件位置

@@ -98,6 +98,7 @@ class TiebaSpider(object):
         request = urllib.request.Request(url, headers=headers)
         # 发送请求,从服务器接收数据
         data = urllib.request.urlopen(request).read()
+        # print(type(data))  # <class 'bytes'>
 
         # 解析HTML文档为HTML DOM(XML)模型
         html = etree.HTML(data)

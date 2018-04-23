@@ -1,5 +1,5 @@
 """
-错误: 89行--UnicodeEncodeError: 'gbk' codec can't encode character '\ue415' in position 275: illegal multibyte sequence
+错误: 92行--UnicodeEncodeError: 'gbk' codec can't encode character '\ue415' in position 275: illegal multibyte sequence
 原因: windows系统下新打开的文件默认是gbk编码,这样的话Python解释器会用gbk编码去解析爬取的网络数据流data
      然而此时data是已经decode过的Unicode编码,导致报错
 解决方案: 使用open()函数时,应该指定参数encoding='utf-8'
@@ -46,11 +46,16 @@ class Qiu(object):
         headers = {"User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"}
         # 发送get请求
         response = requests.get(url, headers=headers)
+        # 查看网页字符编码
+        print(response.encoding)  # UTF-8
         # 获取数据
         text = response.text
-        # print(type(text))  # <class 'str'>
+        print(type(text))  # <class 'str'>
+        print(text)
         # content = response.content
         # print(type(content))  # <class 'bytes'>
+        # print(content)
+
         # 解析HTML文档为HTML DOM(XML)模型
         html = etree.HTML(text)
         # 返回所有段子的节点位置,contains()模糊查询: 第一个参数是要匹配的标签,第二个参数是标签名的部分内容
