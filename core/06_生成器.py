@@ -1,7 +1,7 @@
 """
 生成器(generator): 通过列表生成式可以直接创建一个列表,但是列表很大的话会占用很大内存,而我可能只用到其中的几个数据,
                   如果列表元素可以通过某种算法推算出来,由循环不断推出后续元素,从而避免创建完整的list,可以节约
-                  很大空间,这种一边循环一边计算的机制就是生成器,因此生成器一定是迭代器
+                  很大空间,这种边循环边计算的机制就是生成器,因此生成器一定是迭代器
 """
 
 # 创建生成器方式一: 将列表生成式[]改成() ===> []得到的是列表,()得到的是生成器
@@ -32,19 +32,14 @@ print("=" * 50)
 
 # 改成生成器: 加了yield的函数已经不是普通函数,调用该函数不会立即执行而是返回一个生成器
 # yield作用: 中断函数并返回后面的值
-def fib_generator():
-    print("---start---")
-    a, b = 0, 1
-    for i in range(5):
-        print("---1---")
-        yield b
-        print("---2---")
+def fib(n):
+    a, b, s = 0, 1, 0
+    while s < n:
         a, b = b, a + b
-        print("---3---")
-    print("---end---")
+        s += 1
+        yield b
 
-
-f = fib_generator()
+f = fib(5)
 print(f)  # <generator object fib_generator at 0x00000201A8ADD410>
 # for x in f:
 #     print(x)

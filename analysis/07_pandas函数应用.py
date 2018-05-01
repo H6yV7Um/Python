@@ -80,7 +80,7 @@ def statistics():
 
 
 """
-df.apply(func): 作用于行/列
+df.apply(func): 作用于指定的行/列
 df.applymap(func): 作用于每一个元素
 注意: Series对象只有apply() --> AttributeError: 'Series' object has no attribute 'applymap'
 """
