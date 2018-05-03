@@ -98,7 +98,7 @@ class HupuSpider(object):
         filename = url.split("?")[0][-10:]
         print("正在下载图片 %s" % filename)
         # 保存到本地
-        with open('D://hupu/' + filename, 'wb') as f:
+        with open('C://Users/chenq/Pictures/Saved Pictures/hupu/' + filename, 'wb') as f:
             f.write(image)
 
 

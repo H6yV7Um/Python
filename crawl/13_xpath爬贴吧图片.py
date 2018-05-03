@@ -128,7 +128,7 @@ class TiebaSpider(object):
         # 保存到本地
         print("正在下载图片 %s" % filename)
         # with open()会自动调用close()方法
-        with open('D://tieba/' + filename, 'wb') as f:
+        with open('C://Users/chenq/Pictures/Saved Pictures/tieba/' + filename, 'wb') as f:
             f.write(image)
 
 
