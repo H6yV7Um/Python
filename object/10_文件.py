@@ -31,15 +31,10 @@ def file01():
     file2 = open("E://bbb.txt", "w")
     # 2、读写文件
     while True:
-        # 按行读取
-        # text = file1.readline()
         text = file1.readlines()
         print(type(text))
-        # 判断是否到末尾
         if not text:
             break
-        # 写入新文件
-        # file2.write(text)
         for t in text:
             file2.write(t)
     # 3、关闭文件
@@ -81,7 +76,7 @@ def digui02(path):
     list = os.listdir(path)
     for file in list:
         if os.path.isfile(path+file):
-            if os.path.getsize(path+file)<1024*200:
+            if os.path.getsize(path+file) < 1024*200:
                 os.remove(path+file)
         else:
             digui02(path+file+"/")

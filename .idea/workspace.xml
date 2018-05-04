@@ -3,79 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/00_快捷键.py" afterPath="$PROJECT_DIR$/basic/00_快捷键.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/01_类型和变量.py" afterPath="$PROJECT_DIR$/basic/01_类型和变量.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/02_函数.py" afterPath="$PROJECT_DIR$/basic/02_函数.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/03_常用函数.py" afterPath="$PROJECT_DIR$/basic/03_常用函数.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/04_if判断.py" afterPath="$PROJECT_DIR$/basic/04_if判断.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/05_while循环.py" afterPath="$PROJECT_DIR$/basic/05_while循环.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/06_字符串.py" afterPath="$PROJECT_DIR$/basic/06_字符串.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/07_元组.py" afterPath="$PROJECT_DIR$/basic/07_元组.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/08_列表.py" afterPath="$PROJECT_DIR$/basic/08_列表.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/09_字典.py" afterPath="$PROJECT_DIR$/basic/09_字典.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card_manager/card_main.py" afterPath="$PROJECT_DIR$/card_manager/card_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card_manager/card_tools.py" afterPath="$PROJECT_DIR$/card_manager/card_tools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/01_深浅拷贝.py" afterPath="$PROJECT_DIR$/core/01_深浅拷贝.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/02_py是动态语言.py" afterPath="$PROJECT_DIR$/core/02_py是动态语言.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/03_迭代器.py" afterPath="$PROJECT_DIR$/core/03_迭代器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/04_闭包.py" afterPath="$PROJECT_DIR$/core/04_闭包.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/05_装饰器.py" afterPath="$PROJECT_DIR$/core/05_装饰器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/06_生成器.py" afterPath="$PROJECT_DIR$/core/06_生成器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/07_元类.py" afterPath="$PROJECT_DIR$/core/07_元类.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/08_垃圾回收.py" afterPath="$PROJECT_DIR$/core/08_垃圾回收.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/09_常见内建属性.py" afterPath="$PROJECT_DIR$/core/09_常见内建属性.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/10_常见内建函数.py" afterPath="$PROJECT_DIR$/core/10_常见内建函数.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/11_常见模块.py" afterPath="$PROJECT_DIR$/core/11_常见模块.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/01_爬虫简介.py" afterPath="$PROJECT_DIR$/crawl/01_爬虫简介.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/02_urllib库.py" afterPath="$PROJECT_DIR$/crawl/02_urllib库.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/03_get请求.py" afterPath="$PROJECT_DIR$/crawl/03_get请求.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/04_贴吧爬虫.py" afterPath="$PROJECT_DIR$/crawl/04_贴吧爬虫.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/05_post请求.py" afterPath="$PROJECT_DIR$/crawl/05_post请求.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/06_ajax动态加载.py" afterPath="$PROJECT_DIR$/crawl/06_ajax动态加载.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/07_cookie模拟登录.py" afterPath="$PROJECT_DIR$/crawl/07_cookie模拟登录.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/08_handler处理器.py" afterPath="$PROJECT_DIR$/crawl/08_handler处理器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/09_requests模块.py" afterPath="$PROJECT_DIR$/crawl/09_requests模块.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/10_regexp.py" afterPath="$PROJECT_DIR$/crawl/10_regexp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/11_re爬内涵段子.py" afterPath="$PROJECT_DIR$/crawl/11_re爬内涵段子.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/12_xpath表达式.py" afterPath="$PROJECT_DIR$/crawl/12_xpath表达式.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/13_xpath爬贴吧图片.py" afterPath="$PROJECT_DIR$/crawl/13_xpath爬贴吧图片.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/14_xpath爬虎扑图片.py" afterPath="$PROJECT_DIR$/crawl/14_xpath爬虎扑图片.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/15_json和jsonpath.py" afterPath="$PROJECT_DIR$/crawl/15_json和jsonpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/16_xpath爬糗百数据.py" afterPath="$PROJECT_DIR$/crawl/16_xpath爬糗百数据.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/17_多线程爬虫案例1.py" afterPath="$PROJECT_DIR$/crawl/17_多线程爬虫案例1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/bs4解析器.py" afterPath="$PROJECT_DIR$/crawl/bs4解析器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/test.py" afterPath="$PROJECT_DIR$/crawl/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/mysql.py" afterPath="$PROJECT_DIR$/database/mysql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/pymysql.py" afterPath="$PROJECT_DIR$/database/pymysql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/02_方法.py" afterPath="$PROJECT_DIR$/object/02_方法.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/03_封装.py" afterPath="$PROJECT_DIR$/object/03_封装.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/04_继承.py" afterPath="$PROJECT_DIR$/object/04_继承.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/05_多态.py" afterPath="$PROJECT_DIR$/object/05_多态.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/06_单例模式.py" afterPath="$PROJECT_DIR$/object/06_单例模式.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/07_工厂模式.py" afterPath="$PROJECT_DIR$/object/07_工厂模式.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/08_异常.py" afterPath="$PROJECT_DIR$/object/08_异常.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/09_模块.py" afterPath="$PROJECT_DIR$/object/09_模块.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object/10_文件.py" afterPath="$PROJECT_DIR$/object/10_文件.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odps/insert.py" afterPath="$PROJECT_DIR$/odps/insert.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odps/parse.py" afterPath="$PROJECT_DIR$/odps/parse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odps/task.py" afterPath="$PROJECT_DIR$/odps/task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odps/test.py" afterPath="$PROJECT_DIR$/odps/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odps/transform.py" afterPath="$PROJECT_DIR$/odps/transform.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/01_简介.py" afterPath="$PROJECT_DIR$/structure/01_简介.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/02_单链表.py" afterPath="$PROJECT_DIR$/structure/02_单链表.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/03_双链表.py" afterPath="$PROJECT_DIR$/structure/03_双链表.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/04_单向循环链表.py" afterPath="$PROJECT_DIR$/structure/04_单向循环链表.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/05_栈.py" afterPath="$PROJECT_DIR$/structure/05_栈.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/06_队列.py" afterPath="$PROJECT_DIR$/structure/06_队列.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/07_双端队列.py" afterPath="$PROJECT_DIR$/structure/07_双端队列.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/08_排序.py" afterPath="$PROJECT_DIR$/structure/08_排序.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/09_搜索.py" afterPath="$PROJECT_DIR$/structure/09_搜索.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/structure/10_二叉树.py" afterPath="$PROJECT_DIR$/structure/10_二叉树.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/01_进程.py" afterPath="$PROJECT_DIR$/thread/01_进程.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/02_线程.py" afterPath="$PROJECT_DIR$/thread/02_线程.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myspider/.idea/modules.xml" afterPath="$PROJECT_DIR$/../myspider/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myspider/.idea/myspider.iml" afterPath="$PROJECT_DIR$/../myspider/.idea/myspider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myspider/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../myspider/.idea/vcs.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,105 +19,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08_handler处理器.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/08_handler处理器.py">
+      <file leaf-file-name="01_类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/01_类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2162">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="-506">
+              <caret line="144" column="21" lean-forward="true" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_文件.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/object/10_文件.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
-                <element signature="e#251#272#0" expanded="true" />
+                <marker date="1525429451268" expanded="true" signature="0:662" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10_regexp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/10_regexp.py">
+      <file leaf-file-name="02_方法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/02_方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="-1637">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11_re爬内涵段子.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/11_re爬内涵段子.py">
+      <file leaf-file-name="03_封装.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/03_封装.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="-1961">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12_xpath表达式.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/12_xpath表达式.py">
+      <file leaf-file-name="04_继承.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/04_继承.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-17">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_多态.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/05_多态.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_单例模式.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/06_单例模式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-449">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13_xpath爬贴吧图片.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/13_xpath爬贴吧图片.py">
+      <file leaf-file-name="07_工厂模式.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/07_工厂模式.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="324">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="14_xpath爬虎扑图片.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/14_xpath爬虎扑图片.py">
+      <file leaf-file-name="08_异常.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/08_异常.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3131">
-              <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
-              <folding>
-                <element signature="e#15#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15_json和jsonpath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/15_json和jsonpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="-379">
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16_xpath爬糗百数据.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/16_xpath爬糗百数据.py">
+      <file leaf-file-name="09_模块.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/09_模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17_多线程爬虫案例1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawl/17_多线程爬虫案例1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bs4解析器.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crawl/bs4解析器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="451">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -254,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crawl/17_多线程爬虫案例1.py" />
-        <option value="$PROJECT_DIR$/analysis/test.py" />
         <option value="$PROJECT_DIR$/basic/08_列表.py" />
         <option value="$PROJECT_DIR$/analysis/00_python数据分析.py" />
         <option value="$PROJECT_DIR$/analysis/01_anaconda.py" />
@@ -304,6 +230,8 @@
         <option value="$PROJECT_DIR$/modules/logging01.py" />
         <option value="$PROJECT_DIR$/object/01_类.py" />
         <option value="$PROJECT_DIR$/odps/test.py" />
+        <option value="$PROJECT_DIR$/object/07_工厂模式.py" />
+        <option value="$PROJECT_DIR$/object/09_模块.py" />
         <option value="$PROJECT_DIR$/object/10_文件.py" />
       </list>
     </option>
@@ -361,11 +289,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -869,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525330113788</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update">
+      <created>1525427094096</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1525427094096</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -885,7 +815,7 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980562" sideWeight="0.49344262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17980562" sideWeight="0.49344262" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35629454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -911,6 +841,33 @@
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.49344262" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35629454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32422802" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9251782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31591448" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980562" sideWeight="0.49344262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15885022" sideWeight="0.5065574" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -952,34 +909,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/analysis/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/demo02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="76" column="23" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/demo03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/06_生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspider/spider.py" />
     <entry file="file://$PROJECT_DIR$/../myspider/scrapy.cfg" />
     <entry file="file://$PROJECT_DIR$/../myspider/myspider/items.py" />
@@ -997,6 +926,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,26 +1016,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/object/01_类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/analysis/01_ndarray创建与数据类型.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/04_继承.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1123,7 +1037,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#72#0" expanded="true" />
+            <element signature="e#15#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1133,7 +1047,7 @@
         <state relative-caret-position="-1">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#49#0" expanded="true" />
+            <element signature="e#15#49#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1159,7 +1073,7 @@
         <state relative-caret-position="502">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#531#552#0" expanded="true" />
+            <element signature="e#531#552#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1188,40 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/object/06_单例模式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/10_文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <marker date="1525427076692" expanded="true" signature="0:662" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/02_方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2537">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/03_封装.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2105">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawl/06_ajax动态加载.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-701">
@@ -1235,7 +1115,7 @@
         <state relative-caret-position="-1838">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#257#278#0" expanded="true" />
+            <element signature="e#257#278#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1245,7 +1125,7 @@
         <state relative-caret-position="-2162">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#251#272#0" expanded="true" />
+            <element signature="e#251#272#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,7 +1167,7 @@
         <state relative-caret-position="3131">
           <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
           <folding>
-            <element signature="e#15#34#0" expanded="true" />
+            <element signature="e#15#34#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1318,9 +1198,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawl/bs4解析器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="324">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/01_类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="144" column="21" lean-forward="true" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/02_方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1637">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/03_封装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1961">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/04_继承.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/05_多态.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/06_单例模式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/07_工厂模式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/08_异常.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/09_模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/10_文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <marker date="1525429451268" expanded="true" signature="0:662" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>

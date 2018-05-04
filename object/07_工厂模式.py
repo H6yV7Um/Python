@@ -16,7 +16,7 @@ class Factory(object):
             return Pasate(name)
         if name == '朗逸':
             return Langyi(name)
-        if name == '宝来':
+        if name == '宝莱':
             return Baolai(name)
 
 
