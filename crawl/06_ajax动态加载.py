@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 ajax方式加载的页面,数据来源是json;直接对ajax地址get/post就返回json数据了
 """

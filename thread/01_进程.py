@@ -1,3 +1,4 @@
+# coding=utf-8
 from multiprocessing import Process, Pool, Manager, Queue
 import os
 import time

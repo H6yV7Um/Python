@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 多线程爬虫:
 page_queue: 页码队列(page页码)

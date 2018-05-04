@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 input(): 键盘录入只能输入字符串,数字类型要用int,float等函数转换
 """

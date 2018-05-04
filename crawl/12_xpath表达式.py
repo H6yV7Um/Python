@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 xpath使用路径表达式获取xml文档中的元素和属性
 元素: <class 'lxml.etree._Element'>,需要序列化成字符串才能输出

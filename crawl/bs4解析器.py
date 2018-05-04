@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Beautiful Soup: 也是一个HTML/XML的解析器
 lxml是局部遍历,而Beautiful Soup基于HTML DOM,会载入整个文档,解析整个DOM树,因此时间和内存开销大很多,所以性能要低于lxml

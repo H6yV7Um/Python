@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 字典dict: 用{}表示,存放键值对,key唯一,可以做增删改查操作;是对象的无序集合,用来存放同一种类型的数据
          [keys]、[values]、(key:value)

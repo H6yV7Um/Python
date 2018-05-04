@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 内建函数: python解释器启动后默认加载的函数,可通过dir(__builtins__)查找
 """

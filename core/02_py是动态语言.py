@@ -1,3 +1,4 @@
+# coding=utf-8
 import types
 """
 静态语言: java/c++-->编译时就已经声明好变量的数据类型,先编译好再运行

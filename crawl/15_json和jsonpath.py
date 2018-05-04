@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 JSON(JavaScript Object Notation):
 1、JavaScript对象表示法,独立于语言和平台

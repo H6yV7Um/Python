@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Requests: 基于urllib3实现,继承了urllib2的所有特性,并且支持HTTP连接保持和连接池,支持使用cookie保持会话
           支持文件上传,支持自动确定响应内容的编码,支持国际化的URL和POST数据自动编码

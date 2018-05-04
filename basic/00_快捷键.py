@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 PyCharm快捷键大全
 代码提示部分: m方法(self);f函数;v变量;c类;p参数

@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 错误: 92行--UnicodeEncodeError: 'gbk' codec can't encode character '\ue415' in position 275: illegal multibyte sequence
 原因: windows系统下新打开的文件默认是gbk编码,这样的话Python解释器会用gbk编码去解析爬取的网络数据流data

@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 http请求状态码汇总:
 1xx:信息

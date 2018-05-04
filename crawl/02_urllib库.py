@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 urllib在python3中被改为urllib.parse
 urllib2在python3中被改为urllib.request

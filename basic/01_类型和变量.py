@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 5大数据类型:
 不可变类型: 数字(int float bool)、字符串、元组

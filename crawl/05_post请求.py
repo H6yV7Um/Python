@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 http请求主要分为get和post两种:
 get是从服务器上获取数据,post是向服务器传送数据

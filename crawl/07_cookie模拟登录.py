@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 cookie: 网站服务器为了辨别用户身份和进行Session跟踪而储存在浏览器上的文本文件,cookie可以保持登录信息到用户下次与服务器的会话
 Python处理Cookie,一般是通过http.cookiejar模块和urllib.request模块的HTTPCookieProcessor处理器类一起使用

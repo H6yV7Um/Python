@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 card_main: 主程序
 """

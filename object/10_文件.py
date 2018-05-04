@@ -1,12 +1,13 @@
+# coding=utf-8
 """
 文件读写: 一个函数(open),三个方法(read、write、close)
-open(): 默认r只读,w只写(有内容就覆盖),a追加;操作图片、视频等二进制文件: rb,wb,ab
+open(): 默认r只读,w只写(有内容就覆盖),a追加,r+可读可写;操作图片、视频等二进制文件: rb,wb,ab
 read(size): 不写size就一次读取所有行,返回str,执行完指针会移动到文件末尾
-readline(): 每次读取一行,返回str,执行完指针会移到下一行
+readline(): 每次读取一行,返回str,执行完指针会移到下一行,包括 "\n" 字符
 readlines(): 一次读取所有行,返回list,每行都是一个元素
 tell(): 获取当前文件位置
 seek(offset, from): 调整当前文件位置
-    offset: 偏移量
+    offset: 偏移量(注意：utf-8格式中文占3个字节，gbk格式中文占2个字节)
     from: 方向 0表示文件开头 1表示当前位置 2表示文件结尾(python3目前只能写0！)
 
 文件操作: 导入os模块
@@ -47,15 +48,21 @@ def file01():
 
 # 文件定位
 def file02():
-    file = open("E://aaa.txt", encoding='utf-8')
-    str1 = file.read(5)
-    print("读取的字符串是 %s" % str1)
-    position = file.tell()
-    print("当前文件位置是 %s" % position)
-    file.seek(3, 0)
-    str2 = file.read()
-    print("读取的字符串是 %s" % str2)
-    file.close()
+    file = open("C://Users/chenq/Documents/aaa.txt", encoding='utf-8')
+    # str1 = file.read(5)
+    # print(str1)
+    # position = file.tell()
+    # print(position)
+    #
+    #
+    # file.seek(3, 0)
+    # str2 = file.read()
+    # print(str2)
+    # file.close()
+    res = file.readline()
+    print(res)
+    pos = file.tell()
+    print(pos)
 
 # 递归文件夹操作指定后缀名的文件
 dir_name = "D://学习资料/python数据分析与机器学习实战/python数据分析与机器学习实战/"
@@ -81,5 +88,6 @@ def digui02(path):
 
 
 if __name__ == "__main__":
-    digui(dir_name, ".flv")
+    file02()
+    # digui(dir_name, ".flv")
     # digui02(dir_name)

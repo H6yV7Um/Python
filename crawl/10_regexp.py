@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 pattern = re.compile("")
 pattern.match(): 从起始位置往后查找,返回第一个符合的字符串

@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 urlopen()不支持代理和cookie等http/https高级功能的问题:
 解决方案: 使用相关handler处理器来创建特定功能的处理器对象(其实urlopen也是一个特殊的opener)

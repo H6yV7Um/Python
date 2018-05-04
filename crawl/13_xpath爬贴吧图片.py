@@ -1,3 +1,4 @@
+# coding=utf-8
 """"
 HTML(Hyper Text Markup Language): 超文本标记语言 ---> 展示数据
 XML(Extensible Markup Language): 可扩展标记语言 ---> 传输和存储数据,可以持久化
