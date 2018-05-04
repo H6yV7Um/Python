@@ -14,6 +14,7 @@ Anaconda: 是一个科学计算软件发行版,集成了大量常用扩展包的
 卸载包: pip uninstall xxx;conda uninstall xxx
 升级包: pip install upgrade xxx;conda update xxx
 
+conda --version: 查看conda版本号
 conda list: 查看已安装的模块列表
 conda install numpy: 安装numpy库
 anaconda search -t conda jsonpath: 寻找安装jsonpath库的资源

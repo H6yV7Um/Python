@@ -1,7 +1,8 @@
 # coding=utf-8
 """
-python日志处理(logging模块): http://www.cnblogs.com/yyds/p/6901864.html
-                           http://yshblog.com/blog/125
+python日志处理(logging模块):
+http://www.cnblogs.com/yyds/p/6901864.html
+http://yshblog.com/blog/125
 
 两种日志记录方式:
 1、使用logging提供的模块级别的函数
@@ -18,7 +19,7 @@ import logging.handlers
 import datetime
 
 """
-使用logging函数
+方式一：使用logging函数
 """
 # 输出在控制台
 # logging.basicConfig(
@@ -37,7 +38,7 @@ import datetime
 # )
 
 """
-使用Logger四大组件
+方式二：使用Logger四大组件
 """
 def mylogger():
 
