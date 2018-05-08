@@ -26,7 +26,7 @@ Available commands:
   [ more ]      More commands available when run from project directory
 Use "scrapy <command> -h" to see more info about a command
 
-Scrapy项目步骤：
+Scrapy项目四步骤：
 1、新建项目：scrapy startproject myspider(项目名称)
 |---myspider
     |---myspider                    # 项目的Python模块，将会从这里引用代码
@@ -43,7 +43,7 @@ Scrapy项目步骤：
 3、制作爬虫(spiders/xxx.py)：爬取数据
   scrapy genspider itcast(爬虫名称) "www.itcast.cn"(网站域名)：可生成模板
 
-4、存储内容(pipelines.py)：设计管道存储爬取内容，存入文件或数据库
+4、存储数据(pipelines.py)：设计管道存储爬取内容，存入文件或数据库
   当Item在Spider中被收集之后，它将会被传递到Item Pipeline，这些Item Pipeline组件按定义的顺序处理Item
 
 运行：scrapy crawl ***
