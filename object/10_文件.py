@@ -5,6 +5,8 @@ open(): 默认r只读,w只写(有内容就覆盖),a追加,r+可读可写;操作�
 read(size): 不写size就一次读取所有行,返回str,执行完指针会移动到文件末尾
 readline(): 每次读取一行,返回str,执行完指针会移到下一行,包括 "\n" 字符
 readlines(): 一次读取所有行,返回list,每行都是一个元素
+            f.readlines()[1:]可以通过切片指定读取哪些行
+注意：read()和readlines()会把文件所有内容读取到内存，数据量大的话慎用！
 tell(): 获取当前文件位置
 seek(offset, from): 调整当前文件位置
     offset: 偏移量(注意：utf-8格式中文占3个字节，gbk格式中文占2个字节)
@@ -25,7 +27,7 @@ os.path.getsize(filename): 获取文件大小,求文件夹大小的话需要递�
 import os
 
 # 文件读写
-def file01():
+def test01():
     # 1、打开文件
     file1 = open("E://aaa.txt", encoding='utf-8')
     file2 = open("E://bbb.txt", "w")
@@ -42,7 +44,7 @@ def file01():
     file2.close()
 
 # 文件定位
-def file02():
+def test02():
     file = open("C://Users/chenq/Documents/aaa.txt", encoding='utf-8')
     # str1 = file.read(5)
     # print(str1)
@@ -81,8 +83,38 @@ def digui02(path):
         else:
             digui02(path+file+"/")
 
+def test03():
+    """
+    由于字符串的replace()方法是生成新的结果，原字符串不变，所以要生成新文件
+    :return:
+    """
+
+    with open("C://Users/chenq/Desktop/debit_order.sql", "r", encoding="utf-8") as f1:
+        lines = f1.readlines()
+
+    with open("C://Users/chenq/Desktop/debit_order.sql", "w", encoding="utf-8") as f2:
+        f2.write(lines[0].replace("`", ""))
+        for line in lines[1:]:
+            # 删除某一行数据可以用not in
+            if ("PRIMARY" and " KEY ") not in line:
+                if "(" in line:
+                    index = line.find("(")
+                    f2.write(line.replace(line[index:-2], "").replace("varchar", "string").replace("`", ""))
+                elif " date" in line:
+                    index = line.find(" date")
+                    f2.write(line.replace(line[index + 5:-2], "").replace(" date", " string").replace("`", ""))
+                elif " timestamp " in line:
+                    index = line.find(" timestamp")
+                    f2.write(line.replace(line[index + 10:-2], "").replace(" timestamp", " string").replace("`", ""))
+                elif "ENGINE" in line:
+                    f2.write(line[:1] + "\n")
+                else:
+                    pass
+        f2.write("ROW FORMAT DELIMITED\nFIELDS TERMINATED BY '\\001'\nLINES TERMINATED BY '\\n'\nSTORED AS TEXTFILE;")
 
 if __name__ == "__main__":
-    file02()
+    # test01()
+    # test02()
     # digui(dir_name, ".flv")
     # digui02(dir_name)
+    test03()

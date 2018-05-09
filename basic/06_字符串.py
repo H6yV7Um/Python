@@ -25,8 +25,8 @@ print(len(str1))  # len(): 计算长度
 print(str1.count("he"))  # count(): 统计次数
 
 # 4、子字符串出现位置
-print(str1.index("py"))  # index(): 求索引
-print(str1.find("abc"))  # find(): 与index类似,但是子字符串不存在的话不会报错,而是返回-1
+print(str1.index("py"))  # index(): 求索引,子字符串不存在会报错
+print(str1.find("abc"))  # find(): 类似index,但是子字符串不存在不会报错,而是返回-1
 
 # 5、判断操作
 print(str1.isspace())  # isspace(): 判断空白字符(包括空格、\t、\r、\n等)   False
