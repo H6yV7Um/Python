@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b25e3eb-9214-4494-aafb-a4922d3d414a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/06_生成器.py" afterPath="$PROJECT_DIR$/core/06_生成器.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,14 +42,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1512">
               <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-              <folding>
-                <marker date="1525829593457" expanded="true" signature="24:691" ph="import ..." />
-                <marker date="1525829593457" expanded="true" signature="733:790" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-                <marker date="1525829593457" expanded="true" signature="1050:1238" ph="..." />
-                <marker date="1525829593457" expanded="true" signature="1426:1476" ph="..." />
-                <marker date="1525829593457" expanded="true" signature="1526:1622" ph="..." />
-                <marker date="1525829593457" expanded="true" signature="1669:1795" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myspider/myspider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_生成器.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/06_生成器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -85,7 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>外键</find>
       <find>rand</find>
       <find>重复数据</find>
       <find>os</find>
@@ -115,6 +118,7 @@
       <find>正则</find>
       <find>item</find>
       <find>re</find>
+      <find>生成器</find>
     </findStrings>
     <replaceStrings>
       <replace>param</replace>
@@ -127,7 +131,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../myspider" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -167,7 +171,6 @@
         <option value="$PROJECT_DIR$/analysis/05_pandas索引操作.py" />
         <option value="$PROJECT_DIR$/analysis/06_pandas对齐运算.py" />
         <option value="$PROJECT_DIR$/analysis/07_pandas函数应用.py" />
-        <option value="$PROJECT_DIR$/core/06_生成器.py" />
         <option value="$PROJECT_DIR$/myspider/spider.py" />
         <option value="$PROJECT_DIR$/crawl/scrapy.py" />
         <option value="$PROJECT_DIR$/crawl/02_urllib库.py" />
@@ -186,6 +189,7 @@
         <option value="$PROJECT_DIR$/basic/06_字符串.py" />
         <option value="$PROJECT_DIR$/odps/test.py" />
         <option value="$PROJECT_DIR$/object/10_文件.py" />
+        <option value="$PROJECT_DIR$/core/06_生成器.py" />
       </list>
     </option>
   </component>
@@ -268,7 +272,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myspider/start.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="SearchEverywhereHistoryKey" value="队头删除元素&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -5507,7 +5511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525862490037</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update">
+      <created>1525862596380</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1525862596380</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5857,36 +5868,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/item.py" />
-    <entry file="file://$PROJECT_DIR$/core/06_生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myspider/myspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myspider/myspider/spiders/itcast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-          <folding>
-            <marker date="1525829593457" expanded="true" signature="24:691" ph="import ..." />
-            <marker date="1525829593457" expanded="true" signature="733:790" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1525829593457" expanded="true" signature="1050:1238" ph="..." />
-            <marker date="1525829593457" expanded="true" signature="1426:1476" ph="..." />
-            <marker date="1525829593457" expanded="true" signature="1526:1622" ph="..." />
-            <marker date="1525829593457" expanded="true" signature="1669:1795" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/01.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540">
@@ -5966,14 +5947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawl/00_Scrapy框架.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myspider/myspider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -5982,10 +5955,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../myspider/myspider/spiders/itcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myspider/myspider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/00_Scrapy框架.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../myspider/myspider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/06_生成器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
