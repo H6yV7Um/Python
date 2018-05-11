@@ -62,8 +62,9 @@ R表示relationship,关系
 求第n页的数据: select * from students limit (n-1)*m,m
 
 视图
-对于很复杂的查询sql，经常使用的话维护起来很麻烦,可以定义成视图,视图的本质就是对查询的封装,生成一个新的表
-定义视图:
+定义：对于很复杂的查询sql,经常使用的话维护起来很麻烦,可以定义成视图,视图的本质就是对查询的封装,生成一个新的表
+作用：隐藏数据复杂性,有利于用户对于数据库中某些列数据的访问,使用户查询变得简单
+创建视图:
 create view v_stu_score as
 select students.*,scores.score from scores inner join students on scores.stuid=students.id;
 查询视图:
