@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapy01/.idea/Python.iml" filepath="$PROJECT_DIR$/../scrapy01/.idea/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/../myspider/.idea/myspider.iml" filepath="$PROJECT_DIR$/../myspider/.idea/myspider.iml" />
       <module fileurl="file://$PROJECT_DIR$/../scrapy01/.idea/scrapy01.iml" filepath="$PROJECT_DIR$/../scrapy01/.idea/scrapy01.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tencent/.idea/tencent.iml" filepath="$PROJECT_DIR$/../tencent/.idea/tencent.iml" />
